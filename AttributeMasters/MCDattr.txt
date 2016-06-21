@@ -1,0 +1,40 @@
+Attribute XML Name|MultiValue Attribute?|Group Name|Max Number of Records in Group|Data Type|Total Digits|Max Length / Total Number of digits|Min Length / # of decimals|***DO NOT USE*Lang specific?*****|Valid Value List Name|Qual O/M *FUTURE USE*|Qual Name|Qual Data Type|Qual Total Digits|Qual Max Length / Total Number of digits|Qual Min Length / # of decimals|Qual VV list|Copyable?|GUI Lang|GUI Attribute Name|GUI Help Text|GUI Container Type|GUI Field Type|Label Align|Label Width|Value Align|Value Width|GUI Group Row|GUI Group Column|Active Status|XML Group M/O *FUTURE USE*|Comments|IM/Customer Key Master Name|Untitled event|Xref Type|Customer's Attribute Ref ID
+mcdBanner_ProductDescription|N||||||||||||||||N|en|Product , Description, and Identification|Product, Description, and Identification|Banner|Label|Left|200|Left||||Active||PI15501_QA01||||
+mcdBanner_WeightsDimensions|N||||||||||||||||N|en|Weights, Dimensions, and Temperatures|Weights, Dimensions, and Temperatures|Banner|Label|Left|200|Left||||Active||PI15501_QA01||||
+mcdBanner_NonGTIN|N||||||||||||||||N|en|Pallet level logistical information|Pallet level logistical information|Banner|Label|Left|200|Left||||Active||PI15501_QA01||||
+mcdBanner_Packaging|N||||||||||||||||N|en|Packaging|Packaging|Banner|Label|Left|200|Left||||Active||PI15501_QA01||||
+mcdBanner_Dates|N||||||||||||||||N|en|Dates|Dates|Banner|Label|Left|200|Left||||Active||PI15501_QA01||||
+mcdBanner_ProductHierarchy|N||||||||||||||||N|en|Product Hierarchy|Product Hierarchy|Banner|Label|Left|200|Left||||Active||PI15501_QA01||||
+mcdBanner_Classification|N||||||||||||||||N|en|Classification|Classification|Banner|Label|Left|200|Left||||Active||PI15501_QA01||||
+mcdCopiedGTIN|N|||text||14|1|N|||||||||N|en|Copied GTIN|This attribute is the GTIN from which incoming CIN items have been copied (to the hierarchy).  It is generally the lowest level orderable item.  This attribute is being kept for use in error messages. |Horizontal|Text|Left|200|Left||||Active||PI157_04; PI1571_02||||
+mcdROQualitySupplierFileNumber|N|||text||10|1|N|||||||||N|en|Quality Supplier File Number |Food item spec number in Merlin (7 digit number)|Horizontal|Text|Left|200|Left||||Active||PI15501_QA02; PI157_03;PI157_04; ; PI1571_02||||
+mcdROQualitySupplierFileVersionNumber|N|||text||10|1|N|||||||||N|en|Quality Supplier File Version Number |Food item spec version number in Merlin (3 digit number)|Horizontal|Text|Left|200|Left||||Active||PI15501_QA02; PI157_03;PI157_04; ; PI1571_02||||
+mcdROClassification|N|||text||10|1|N|McdClassificationVV||||||||N|en|Classification Category - Product Group|McD defined product classification. Used in conjunction with Product Classification.|Horizontal|Text|Left|200|Left||||Active||PI1589_IM689_08||||
+mcdWrinPrefix|N|||text||5|1|N|||||||||N|en|WRIN Prefix|WRIN Prefix|Horizontal|Text|Left|200|Left||||Active||PI15501_QA02||||
+mcdWrinSuffix|N|||text||3|1|N|||||||||N|en|WRIN Suffix|WRIN Suffix|Horizontal|Text|Left|200|Left||||Active||PI15501_QA02||||
+mcdLwrinPrefix|N|||text||5|1|N|||||||||N|en|Local RIN Prefix|Local RIN Prefix|Horizontal|Text|Left|200|Left||||Active||PI15501_QA02; PI159_IM689_08||||
+mcdLwrinSuffix|N|||text||3|1|N|||||||||N|en|Local RIN Suffix|Local RIN Suffix|Horizontal|Text|Left|200|Left||||Active||PI15501_QA02; PI159_IM689_08||||
+mcdAccountCodePrefix|N|||text||10|1|N|||||||||N|en|Account Code Prefix|Account Code Prefix|Horizontal|Text|Left|200|Left||||Active||PI15501_QA02||||
+mcdAccountCodeSuffix|N|||text||10|1|N|||||||||N|en|Account Code Suffix|Account Code Suffix|Horizontal|Text|Left|200|Left||||Active||PI15501_QA02||||
+mcdCampaignEndDate|N|||dateTime|||||||||||||N|en|Campaign End Date|The End Date of the promotional campaign|Horizontal|Date|Left|200|Left||||Active||PI1552_03|campaignEndDate|||
+mcdCampaignName|Y|||text||70|1|||M|lang|text||5|1|StandardLanguageCodes_hub|N|en|Campaign Name|The name/description  of the promotional campaign|Horizontal|Text|Left|200|Left||||Active||PI1552_03|campaignName||Hub|
+mcdCampaignStartDate|N|||dateTime|||||||||||||N|en|Campaign Start Date|The Start Date of the promotional campaign|Horizontal|Date|Left|200|Left||||Active||PI1552_03|campaignStartDate|||
+mcdTargetConsumerAge|Y|||text||70|1|||M|lang|text||5|1|StandardLanguageCodes_hub|N|en|Target Consumer Age|Identifies the target consumer age range for which a trade item has been designed.|Horizontal|Text|Left|200|Left||||Active||PI15501_QA02, PI164_IM6818_SEP04|targetConsumerAge||Hub|
+mcdCampaignLocation|N|||text||30|1|N|||||||||N|en|Campaign Location|Global/TM|Horizontal|Text|Left|200|Left||||Active||PI15501_QA02||||
+mcdWSINumber|Y||999|text||70|1||||||||||N|en|WSI Number|IM GUI Tab|Horizontal|Text|Left|200|Left||||Active||PI1589_IM689_08||||
+mcdItemDescriptionPrefix|N|||text||15|1|N|||||||||N|en|Full WRIN Short Description|M/O/D|Horizontal|Text|Left|200|Left||||Active||PI15501_QA02; PI159_IM689_08||||
+mcdItemDescriptionSuffix|N|||text||30|1|N|||||||||N|en|Full WRIN Long Description|Type/Size|Horizontal|Text|Left|200|Left||||Active||PI15501_QA02; PI159_IM689_08||||
+mcdInventoryTypeCode|N|||text||2|1|N|||||||||N|en|McDs Type|Occurrence|Horizontal|Text|Left|200|Left||||Active||PI15501_QA02||||
+mcdPortionControl|N|||boolean||||N|||||||||N|en|Portion Control|Identifies if item requires portion control: bulk vs prepackaged.  Typically not put in a recipe if it is portion controlled|Horizontal|Boolean|Left|200|Left||||Active||PI15501_QA02; PI159_IM689_08; PI1512_03||||
+mcdQualitySupplierFileNumber|N|||text||10|1|N|||||||||N|en|Quality Supplier File Number |Food item spec number in Merlin (7 digit number)|Horizontal|Text|Left|200|Left||||Active||PI15501_QA02; PI157_03||||
+mcdQualitySupplierFileVersionNumber|N|||text||10|1|N|||||||||N|en|Quality Supplier File Version Number |Food item spec version number in Merlin (3 digit number)|Horizontal|Text|Left|200|Left||||Active||PI15501_QA02; PI157_03||||
+mcdRequestorLocale|N|||text||2|1|N|||||||||N|en|Where Used|Actually represents requestor, not where used since only 1 country can be entered & is not updated on a later date|Horizontal|Text|Left|200|Left||||Active||PI15501_QA02; PI159_IM689_08||||
+mcdTempZone|N||1|text||70|1|N|||||||||N|en|Temp Zone|McDonalds Proprietary Temp Zone for Distribution Centers|Horizontal|Text|Left|200|Left||||Active||PI1552_01||||
+mcdGraphics|N|||text||30|1||||||||||N|en|Graphics| Describes the graphics on the item.  Required if graphics are used. |Horizontal|Text|Left|200|Left||||Active||PI1589_IM689_08||||
+mcdROWrinPrefix|N|||text||5|1|N|||||||||N|en|WRIN Prefix|WRIN Prefix|Horizontal|Text|Left|200|Left||||Active||PI15501_QA02||||
+mcdROWrinSuffix|N|||text||3|1|N|||||||||N|en|WRIN Suffix|WRIN Suffix|Horizontal|Text|Left|200|Left||||Active||PI15501_QA02||||
+mcdROWSINumber|Y||999|text||70|1||||||||||N|en|WSI Number|WSI number associated with the Supplier|Horizontal|Text|Left|200|Left||||Active||PI1589_IM689_08||||
+mcdROItemDescriptionPrefix|N|||text||15|1|N|||||||||N|en|Full WRIN Short Description|Full WRIN Short Description|Horizontal|Text|Left|200|Left||||Active||PI15501_QA02; PI159_IM689_08||||
+mcdROItemDescriptionSuffix|N|||text||30|1|N|||||||||N|en|Full WRIN Long Description|Full WRIN Long Description|Horizontal|Text|Left|200|Left||||Active||PI15501_QA02; PI159_IM689_08||||
+mcdROPortionControl|N|||boolean||||N|||||||||N|en|Portion Control|Identifies if item requires portion control: bulk vs prepackaged.  Typically not put in a recipe if it is portion controlled|Horizontal|Boolean|Left|200|Left||||Active||PI15501_QA02; PI159_IM689_08; PI1513_05||||
+mcdROGraphics|N|||text||30|1||||||||||N|en|Graphics| Describes the graphics on the item.  Required if graphics are used. |Horizontal|Text|Left|200|Left||||Active||PI1589_IM689_08||||

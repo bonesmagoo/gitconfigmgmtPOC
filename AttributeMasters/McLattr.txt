@@ -1,0 +1,67 @@
+Attribute XML Name|MultiValue Attribute?|Group Name|Max Number of Records in Group|Data Type|Total Digits|Max Length / Total Number of digits|Min Length / # of decimals|***DO NOT USE*Lang specific?*****|Valid Value List Name|Qual O/M *FUTURE USE*|Qual Name|Qual Data Type|Qual Total Digits|Qual Max Length / Total Number of digits|Qual Min Length / # of decimals|Qual VV list|Copyable?|GUI Lang|GUI Attribute Name|GUI Help Text|GUI Container Type|GUI Field Type|Label Align|Label Width|Value Align|Value Width|GUI Group Row|GUI Group Column|Active Status|XML Group M/O *FUTURE USE*|Comments|IM/Customer Key Master Name|Untitled event|Xref Type|Customer's Attribute Ref ID
+mclBogusFlag|N|||boolean|||||||||||||N|en|Bogus Flag|No retail UPC, Bulk item.  Example: check mark|Horizontal|Boolean|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclShortDescription/mclShortDescription|N|mclShortDescription|100|text||25|1||||||||||N|en|Short Description|Free form field that will be sent to mainframe. Mandatory for new items.  Example: MARL BX|LoopGroupRo |Text|Left|200|Left|40|||Active||added to IM 6.5 - McLane||||
+mclShortDescription/mclGtinOfShortDescription|N|mclShortDescription|100|text||14|1|N|||||||||N|en|GTIN|The Global Trade Item Number is the standard 14-digit number used to identify all trade items in 1SYNC Item Management. For a more detailed definition, refer to the introductory section of this document.|LoopGroupRo |Text|Left|20|Left|20|||Active||added to IM 6.5 - McLane||||
+mclSize|N|||text||8|1||||||||||N|en|Size|Size of retail product. Example: KING|Horizontal|Text|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclBuyerNumber|N|||text||2|1||||||||||N|en|Buyer #|Numeric Field.  Example: 45|Horizontal|Text|Left|200|Left||||Active||added to IM 6.5 - McLane; updated prior to mcl load going with PRODINTRO-114||||
+mclSellType|N|||text||15|1||mcl_SellTypes||||||||N|en|Sell Type|Sell type to customers.  Example: Full Case|Horizontal|Dropdown|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclCorpAccountNumber|N|||text||3|3||||||||||N|en|Corp Account #|Numeric Customer Account Number.  Example: 999|Horizontal|Text|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclItemType|N|||text||10|1||mcl_ItemTypes||||||||N|en|Item Type|Grocery or GMP.  Example: Grocery|Horizontal|Dropdown|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclLogo|N|||boolean|||||||||||||N|en|Logo|Private label item.  Example: check mark|Horizontal|Boolean|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclPromoCode|N|||boolean|||||||||||||N|en|Promo Code|Promo indicator for Cigs.  Example: check mark|Horizontal|Boolean|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclRebateCode|N|||text||36|1||mcl_RebateCodes||||||||N|en|Rebate Code|Code for items we receive rebates for.  Example: Dr. Pepper 5 gal|Horizontal|Dropdown|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclRequester|N|||text||20|1||||||||||N|en|Requestor|McLane person requesting the item|Horizontal|Text|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclSKUType|N|||text||20|1||mcl_SKUTypes||||||||N|en|SKU Type|Type of item.  Example: National|Horizontal|Dropdown|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclSubset|N|||text||40|1||mcl_Subsets||||||||N|en|Subset|Subset.  Example: 002FIREWOOD|Horizontal|Dropdown|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclUINCategory|N|||text||7|7||||||||||N|en|UIN Category|Nacs Categories.  Example: 1500050|Horizontal|Text|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclUINDept|N|||text||5|5||||||||||N|en|UIN Dept|McLane UIN Dept..  Example: 20606|Horizontal|Text|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclVendorNumber|N|||text||5|5||||||||||N|en|Vendor #|Numeric Field..  Example: 29247|Horizontal|Text|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclCubiscan/mclCubiscanDate|N|mclCubiscan|100|datetime|||||||||||||N|en|Cubiscan Date|Date an item was cubiscaned.  Example: 39857|LoopGroupRo |Date|Left|150|Left|150|||Active||added to IM 6.5 - McLane||||
+mclCubiscan/mclCubiscanGTIN|N|mclCubiscan|100|text||14|1|N|||||||||N|en|Cubiscan GTIN|GTIN of the item that was cusbiscaned|LoopGroupRo |Text|Left|20|Left|20|||Active||added to IM 6.5 - McLane||||
+mclCubiscan/mclCubiscanHeight|N|mclCubiscan|100|float|5|5|2||||||||||N|en|Cubiscan Height|Height of case, always in inches.  Example: 15.25|LoopGroupRo |Float|Left|100|Left||||Active||added to IM 6.5 - McLane||||
+mclCubiscan/mclCubiscanLengthDepth|N|mclCubiscan|100|float|5|5|2||||||||||N|en|Cubiscan Length (Depth)|Depth of case, always in inches.  Example: 17.25|LoopGroupRo |Float|Left|100|Left||||Active||added to IM 6.5 - McLane||||
+mclCubiscan/mclCubiscanWeight|N|mclCubiscan|100|float|7|7|2|||M|uom|text||10|1|mcl_CubiscanWeights|N|en|Cubiscan Weight & UOM|Weight of case,ounces or pounds.  Example: 15.2|LoopGroupRo |Float|Left|200|Left|100|||Active||added to IM 6.5 - McLane||||
+mclCubiscan/mclCubiscanWidth|N|mclCubiscan|100|float|5|5|2||||||||||N|en|Cubiscan Width|Width of case, always in inches.  Example: 10.15|LoopGroupRo |Float|Left|100|Left||||Active||added to IM 6.5 - McLane||||
+mclCubiscanCode|N|||text||38|1||mcl_CubiscanCodes||||||||N|en|CUBISCAN CODE|Codes to track if an item has been cubiscaned.  Example: Cubiscaned|Horizontal|Dropdown|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclPack|N|||integer||4|1||||||||||N|en|Pack|number of retails in an inner.  Example: 12|Horizontal|Integer|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclRepack|N|||integer||5|1||||||||||N|en|Repack|Number of inner's in a case.  Example: 8|Horizontal|Integer|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclConsumerUnits/mclProductTypeOfConsumerUnits|N|mclConsumerUnits|100|text||2|1|N|ProductTypeCodes_hub||||||||N|en|Consumer Units Product Type|Describes the hierarchical level of the trade item.|LoopGroupRo |Text|Left|100|Left||||Active||added to IM 6.5 - McLane||||
+mclConsumerUnits/mclGtinOfConsumerUnits|N|mclConsumerUnits|100|text||14|1|N|||||||||N|en|Consumer Units GTIN|The Global Trade Item Number is the standard 14-digit number used to identify all trade items in 1SYNC Item Management. For a more detailed definition, refer to the introductory section of this document.|LoopGroupRo |Text|Left|20|Left|20|||Active||added to IM 6.5 - McLane||||
+mclConsumerUnits/mclConsumerUnits|N|mclConsumerUnits|100|integer||6|1||||||||||N|en|Consumer Units|Number of consumer units in case. Example: 12|LoopGroupRo |Integer|Left|100|Left||||Active||added to IM 6.5 - McLane||||
+mclSellbyDays|N|||integer||3|1||||||||||N|en|Sell By Days|Number of days to sell by. Example: 30|Horizontal|Integer|Left|200|Left||||Active||added to IM 6.5 UAT2 - McLane ||||
+mclBracketPrice1|N|||float|15|15|4||||||||||N|en|Bracket Price 1|Bracket Price.  Example: 8|Horizontal|Float|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclBracketPrice2|N|||float|15|15|4||||||||||N|en|Bracket Price 2|Bracket Price.  Example: 8.5|Horizontal|Float|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclBracketPrice3|N|||float|15|15|4||||||||||N|en|Bracket Price 3|Bracket Price.  Example: 9|Horizontal|Float|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclBracketPrice4|N|||float|15|15|4||||||||||N|en|Bracket Price 4|Bracket Price.  Example: 9.5|Horizontal|Float|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclBracketPrice5|N|||float|15|15|4||||||||||N|en|Bracket Price 5|Bracket Price.  Example: 10|Horizontal|Float|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclBracketPrice6|N|||float|15|15|4||||||||||N|en|Bracket Price 6|Bracket Price.  Example: 10.5|Horizontal|Float|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclCaseCost|N|||float|15|15|4||||||||||N|en|Case Cost|Case Cost.  Example: 22|Horizontal|Float|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclContactName|N|||text||40|1||||||||||N|en|Contact Name|Name of person completing information.  Example: John Smith|Horizontal|Text|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclCustomer|N|||text||60|1||||||||||N|en|Customer|Customer requiring item setup.  Example: Love's Stores|Horizontal|Text|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclDCsetup|Y||100|text||20|1||mcl_DCforSetups||||||||N|en|DCs for Setup|What McLane DC's is the item being setup in?.  Example: Southwest|Horizontal|Multi_Select_List|Left|200|Left||||Active||added to IM 6.5 - McLane, PI-471||||
+mclMethodOfStorage|N|||text||20|1||||||||||N|en|Method of Storage|Storage Method.  Example: Frozen|Horizontal|Text|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclPalletCost|N|||float|15|15|4||||||||||N|en|Pallet Cost|Pallet Cost|Horizontal|Float|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclFoodServiceOrRetail|N|||text||60|1||mcl_FSOrRetailVV||||||||N|en|Food Service or Retail?|Select the type of item that this is.|Horizontal|Dropdown|Left|200|Left||||Active||PI15112; PI1512_04||||
+mclFSProgram|N|||text||255|1||||||||||N|en|Food Service: Program|Pizza, Chicken, Warmer Box/Roller Grill/Expanded FS…etc.|Horizontal|Text|Left|200|Left||||Active||PI15112; PI1512_04||||
+mclFSEquipmentToPrepare|N|||text||255|1||||||||||N|en|Food Service: Equipment to Prepare|Roller grill, microwave, turbochef, fryer, etc.|Horizontal|Text|Left|200|Left||||Active||PI15112; PI1512_04||||
+mclFSEquipmentToHold|N|||text||255|1||||||||||N|en|Food Service: Equipment to Hold|Roller grill, warmer box, deli case, etc.|Horizontal|Text|Left|200|Left||||Active||PI15112; PI1512_04||||
+mclFSHoldTime|N|||text||255|1||||||||||N|en|Food Service: Hold Time|After preparation, how long is the food good|Horizontal|Text|Left|200|Left||||Active||PI15112; PI1512_04||||
+mclFSDayPart|N|||text||255|1||||||||||N|en|Food Service: Day Part|Breakfast, Lunch, Dinner, or Snack|Horizontal|Text|Left|200|Left||||Active||PI15112; PI1512_04||||
+mclFSDailyTurns|N|||text||255|1||||||||||N|en|Food Service: Daily Turns (Industry Standard)|Number of servings sold in a day.|Horizontal|Text|Left|200|Left||||Active||PI15112; PI1512_04||||
+mclFSSuggestedRetailPrice|N|||float|10|12|2|||M|currency|text||3|1|StandardCurrencyCodes_hub|N|en|Food Service: Suggest Retail Price|Suggested Retail Price for this Food Service Product|Horizontal|Float|Left|200|Left|20|||Active||PI15112; PI1512_04||||
+mclFSConsumerPackagingIncluded|N|||boolean|||||||||||||N|en|Food Service: Consumer Bags/Packaging Included?|Is the consumer packaging included?|Horizontal|Boolean|Left|200|Left||||Active||PI15112; PI1512_04||||
+mclFSRecommendedServingsPerCase|N|||text||255|1||||||||||N|en|Food Service: Recommended Servings Per case|Number of recommended servings per case.|Horizontal|Text|Left|200|Left||||Active||PI15112; PI1512_04||||
+mclChemicalIngredients|N|||boolean|||||||||||||N|en|Chemical Ingredients?|Does this item contain cheimcal ingredients?|Horizontal|Boolean|Left|200|Left||||Active||PI15112; PI1512_04||||
+mclRetailerInfoBanner|N||||||||||||||||N|en|Retailer Information|Retailer Information|Banner|Label|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclVendorBanner|N||||||||||||||||N|en|Vendor Information|Vendor Information|Banner|Label|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclOrderSellingInfoBanner|N||||||||||||||||N|en|Order & Selling Information|Order & Selling Information|Banner|Label|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclGeneralInfoBanner|N||||||||||||||||N|en|General Information|General Information|Banner|Label|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclShortDescription/mclProductTypeOfShortDescription|N|mclShortDescription|100|text||2|1|N|ProductTypeCodes_hub||||||||N|en|Product Type|Describes the hierarchical level of the trade item.|LoopGroupRo |Text|Left|100|Left||||Active||added to IM 6.5 - McLane||||
+mclPackagingInformationBanner|N||||||||||||||||N|en|Packaging Information|Packaging Information|Banner|Label|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclCostInfoBanner|N||||||||||||||||N|en|Cost Information (Note:  Cost information is Mandatory – populate either  case cost, pallet cost or bracket price .)|Cost Information [Note: Cost information is Mandatory - populate either case cost, pallet cost or bracket price.]|Banner|Label|Left|200|Left||||Active||added to IM 6.5 - McLane, PI-471||||
+mclFoodServiceInfoBanner|N||||||||||||||||N|en|Food Service Information|Food Service Information|Banner|Label|Left|200|Left||||Active||PI15112; PI1512_04||||
+mclMeasurementInfoBanner|N||||||||||||||||N|en|Measurement Information|Measurement Information|Banner|Label|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclHandlingInfoBanner|N||||||||||||||||N|en|Handling & Delivery Information|Handling & Delivery Information|Banner|Label|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclPriceInfoBanner|N||||||||||||||||N|en|Price Information|Price Information|Banner|Label|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclCubiscanInformationBanner|N||||||||||||||||N|en|Cubiscan Information|Cubiscan Information|Banner|Label|Left|200|Left||||Active||added to IM 6.5 - McLane||||
+mclCubiscan/mclCubiscanProductType|N|mclCubiscan|100|text||2|1|N|ProductTypeCodes_hub||||||||N|en|Product Type|Describes the hierarchical level of the trade item.|LoopGroupRo |Text|Left|100|Left||||Active||added to IM 6.5 - McLane||||
