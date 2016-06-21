@@ -3608,3 +3608,4 @@ kroEcommPrintCore|kroTypeOfTargetBatteryUseV11390|E|217900|NULL
 kroEcommPrintCore|kroTypeOfTeapotCafetiereV11257|E|201100|NULL
 kroEcommPrintCore|kroTypeOfTeaV11001|E|177300|NULL
 kroNonVendor|kroTypeOfTelevisionTunerV11852|R|264900|NULL
+Kro_Class_All|testAttribute|R|713000|NULL
