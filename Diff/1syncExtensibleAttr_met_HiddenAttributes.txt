@@ -1,0 +1,2 @@
+﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
+metDivision|N|||text||10|1||||||||||R|N|en|Division|(Hidden) Division|Horizontal|Text|100|Left|200|Left||||Active||NULL|PI3_IM172_OCT01

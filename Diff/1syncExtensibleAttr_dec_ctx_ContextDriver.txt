@@ -1,0 +1,3 @@
+﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
+productType|N|||text||80|1|N|ProductTypeCodes_hub||||||||E|N|en|Product Type|Describes the hierarchical level of the trade item (e.g. each, case, pallet, etc.).|Horizontal|Dropdown|200|Left|200|Left||||Active||MANDATORY_BEFORE|1.5.2CTX;
+isBaseUnit|N|||boolean|||||||||||||E|N|en|Base Unit Indicator|Yes indicates this packaging level is the trade item that is at the lowest level in the item hierarchy.|Horizontal|Boolean|300|Left|200|Left||||Active||MANDATORY_BEFORE|DeCA phase 2

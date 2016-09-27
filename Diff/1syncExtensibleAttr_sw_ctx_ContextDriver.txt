@@ -1,0 +1,4 @@
+﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
+productType|N|||text||80|1|N|ProductTypeCodes_hub||||||||E|N|en|Product Type|Describes the hierarchical level of the trade item (e.g. each, case, pallet, etc.).|Horizontal|Dropdown|100|Left|200|Left||||Active||MANDATORY_BEFORE|1.5.2CTX;
+swGroupContext|N||1|text||2|1||SWGroupVV||||||||E|N|en|Group|Group Code is a 2 digit code indicating the high level group the item belongs to.|Horizontal|Dropdown|200|Left|200|Left||||Active||MANDATORY_BEFORE|PI166_IM6919_FEB03, PI30_IM721_NOV01
+isBaseUnit|N|||boolean|||||||||||||E|N|en|Base Unit Indicator|Yes indicates this packaging level is the trade item that is at the lowest level in the item hierarchy.|Horizontal|Boolean|300|Left|200|Left||||Active||MANDATORY_BEFORE|1.5.2CTX;

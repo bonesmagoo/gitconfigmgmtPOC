@@ -1,0 +1,18 @@
+﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
+metASC|N|||boolean|||||||||||||R|N|en|Aquaculture Stewardship Council (ASC)| ASC - Label for fish from sustainable aquaculture|Horizontal|Boolean|100|Left|200|Left||||Active||NULL|PI3_IM172_OCT01
+metBIO|N|||boolean|||||||||||||R|N|en|Organically grown products Label|Indicator for organically grown products|Horizontal|Boolean|200|Left|200|Left||||Active||NULL|PI3_IM172_OCT01
+metDolphinsafe|N|||boolean|||||||||||||R|N|en|Dolphin friendly tuna|Dolphin friendly tuna|Horizontal|Boolean|300|Left|200|Left||||Active||NULL|PI3_IM172_OCT01
+metFADFree|N|||boolean|||||||||||||R|N|en|Fish aggregating device used|FAD - Fish aggregating device used|Horizontal|Boolean|400|Left|200|Left||||Active||NULL|PI3_IM172_OCT01
+metGMOFree|N|||boolean|||||||||||||R|N|en|GMO Free|GMO Free|Horizontal|Boolean|500|Left|200|Left||||Active||NULL|PI3_IM172_OCT01
+metGlutenFree|N|||boolean|||||||||||||R|N|en|Gluten Free|Gluten Free|Horizontal|Boolean|600|Left|200|Left||||Active||NULL|PI3_IM172_OCT01
+metLactoseFree|N|||boolean|||||||||||||R|N|en|Lactose Free|Lactose Free|Horizontal|Boolean|700|Left|200|Left||||Active||NULL|PI3_IM172_OCT01
+metMSC|N|||boolean|||||||||||||R|N|en|Sustainable wild catch|Label for seafood from sustainable wild catch|Horizontal|Boolean|800|Left|200|Left||||Active||NULL|PI3_IM172_OCT01
+metUTZCertified|N|||boolean|||||||||||||R|N|en|Universal Trade Zone|Universal Trade Zone|Horizontal|Boolean|900|Left|200|Left||||Active||NULL|PI3_IM172_OCT01
+metVegan|N|||boolean|||||||||||||R|N|en|Vegan|Vegan|Horizontal|Boolean|1000|Left|200|Left||||Active||NULL|PI3_IM172_OCT01
+metVegetarian|N|||boolean|||||||||||||R|N|en|Vegetarian|Vegetarian|Horizontal|Boolean|1100|Left|200|Left||||Active||NULL|PI3_IM172_OCT01
+metSugarContent|N|||text||60|1||||||||||R|N|en|Sugar Content|Sugar Content|Horizontal|Text|1200|Left|200|Left||||Active||NULL|PI3_IM172_OCT01
+metDepartment|N|||text||10|1||||||||||E|N|en|Department|Department|Horizontal|Text|1300|Left|200|Left||||Active||NULL|PI3_IM172_OCT01
+metMainMerchandizingGroup|N|||text||10|1||||||||||E|N|en|Main Merchandizing Group|Main Merchandizing Group|Horizontal|Text|1400|Left|200|Left||||Active||NULL|PI3_IM172_OCT01
+metMerchandizingGroup|N|||text||10|1|N|||||||||E|N|en|Merchandizing Group|Merchandizing Group|Horizontal|Text|1500|Left|200|Left||||Active||NULL|PI3_IM172_OCT01
+metMerchandizingSubGroup|N|||text||10|1|N|||||||||E|N|en|Merchandizing Sub Group|Merchandizing Sub Group|Horizontal|Text|1600|Left|200|Left||||Active||NULL|PI3_IM172_OCT01
+metDivision|N|||text||10|1||||||||||R|N|en|Division|(Hidden) Division|Horizontal|Text|1700|Left|200|Left||||Active||NULL|PI3_IM172_OCT01

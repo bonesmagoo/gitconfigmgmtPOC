@@ -1,0 +1,4 @@
+﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
+isAssemblyRequired|N|||boolean|||||||||||||E|N|en|Assembly Required|Indicates that the Items in the package need to be assembled for use.|Horizontal|Boolean|100|Left|200|Left||||Active||NULL|150
+kroExerciseStations|Y||100|text||70|1|N|||||||||E|N|en|Exercise Stations|Describes the Exercise stations on this piece of equipment.|Horizontal|Text|200|Left|200|Left||||Active||NULL|267
+kroTargetedMuscleAreas|Y||100|text||70|1|N|||||||||E|N|en|Targeted Muscle Areas|A description of each targeted muscle area.|Horizontal|Text|300|Left|200|Left||||Active||NULL|268; PI152_QA21; PI152_QA22

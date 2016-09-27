@@ -1,0 +1,5 @@
+﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
+avp/cleaningMethod|N|||text||70|1|N|||||||||E|N|en|Cleaning Method|cleaningMethod<br>Qualifier: AVP198<br>Indicates the method in which to clean the product.|Horizontal|Text|100|Left|200|Left||||Active||NULL|AVP
+tradeItemFinishDescription|Y|||text||70|1|||M|lang|text||5|1|StandardLanguageCodes_hub|E|N|en|Finish Description|Attribute which defines the outer surface/appearance of the product.|Horizontal|Text|200|Left|200|Left||||Active||NULL|120; PI52_QA19
+kroApplianceCapability|Y||100|text||70|1|N|||||||||E|N|en|Appliance Capabilities|Indicates a distinct use to which this product can be applied.|Horizontal|Text|300|Left|200|Left||||Active||NULL|316
+avp/applianceWattage|N|||integer||4|1||||||||||E|N|en|Appliance Wattage|applianceWattage<br>Qualifier: AVP144<br>Identifies the number of watts, in which the product operates efficiently. Measured in Watts.|Horizontal|Integer|400|Left|200|Left||||Active||NULL|AVP

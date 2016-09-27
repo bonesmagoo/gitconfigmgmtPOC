@@ -1,0 +1,4 @@
+﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
+avp/cleaningMethod|N|||text||70|1|N|||||||||E|N|en|Cleaning Method|cleaningMethod<br>Qualifier: AVP198<br>Indicates the method in which to clean the product.|Horizontal|Text|100|Left|200|Left||||Active||NULL|AVP
+kroBulbLife|N||1|integer||10|1||||uom|text||70|1|KroBulbLifeUOMVV|E|N|en|Bulb Life|The estimated life span of the bulb.|Horizontal|Integer|200|Left|200|Left||||Active||NULL|342
+kroLuminationColor|Y||10|text||70|1|N|||||||||E|N|en|Lumination Color|Lumination color descriptor.|Horizontal|Text|300|Left|200|Left||||Active||NULL|341

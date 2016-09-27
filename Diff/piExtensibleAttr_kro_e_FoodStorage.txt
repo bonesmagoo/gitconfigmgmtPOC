@@ -1,0 +1,3 @@
+﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
+kroDishwasherSafe|N|||boolean|||||||||||||E|N|en|Dishwasher Safe|Can this product be washed in an automatic dishwasher?|Horizontal|Boolean|100|Left|200|Left||||Active||NULL|337
+kroMicrowaveSafe|N|||boolean|||||||||||||E|N|en|Microwave Safe|Is this product safe to microwave?|Horizontal|Boolean|200|Left|200|Left||||Active||NULL|338

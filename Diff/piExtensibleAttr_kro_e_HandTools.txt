@@ -1,0 +1,2 @@
+﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
+avp/requiredPowerSupplyWattage|N|||float|5|7|2||||||||||E|N|en|Required Power Supply Wattage|requiredPowerSupplyWattage<br>Indicates the minimum required power supply wattage from the computer system power supply required to operate the product.|Horizontal|Float|100|Left|200|Left||||Active||NULL|AVP
