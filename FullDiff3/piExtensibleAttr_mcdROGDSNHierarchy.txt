@@ -1,0 +1,11 @@
+﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
+mcdROWrinPrefix|N|||text||5|1|N|||||||||R|N|en|WRIN Prefix|WRIN Prefix|Horizontal|Text|100|Left|200|Left||||Active||NULL|
+mcdROWrinSuffix|N|||text||3|1|N|||||||||R|N|en|WRIN Suffix|WRIN Suffix|Horizontal|Text|200|Left|200|Left||||Active||NULL|
+mcdROWSINumber|Y||999|text||70|1||||||||||R|N|en|WSI Number|WSI number associated with the Supplier|Horizontal|Text|300|Left|200|Left||||Active||NULL|
+mcdROItemDescriptionPrefix|N|||text||15|1|N|||||||||R|N|en|Full WRIN Short Description|Full WRIN Short Description|Horizontal|Text|400|Left|200|Left||||Active||NULL|
+mcdROItemDescriptionSuffix|N|||text||30|1|N|||||||||R|N|en|Full WRIN Long Description|Full WRIN Long Description|Horizontal|Text|500|Left|200|Left||||Active||NULL|
+mcdROPortionControl|N|||boolean||||N|||||||||R|N|en|Portion Control|Identifies if item requires portion control: bulk vs prepackaged.  Typically not put in a recipe if it is portion controlled|Horizontal|Boolean|600|Left|200|Left||||Active||NULL|
+mcdROQualitySupplierFileNumber|N|||text||10|1|N|||||||||R|N|en|Quality Supplier File Number |Food item spec number in Merlin (7 digit number)|Horizontal|Text|700|Left|200|Left||||Active||NULL|
+mcdROQualitySupplierFileVersionNumber|N|||text||10|1|N|||||||||R|N|en|Quality Supplier File Version Number |Food item spec version number in Merlin (3 digit number)|Horizontal|Text|800|Left|200|Left||||Active||NULL|
+mcdROGraphics|N|||text||30|1||||||||||R|N|en|Graphics| Describes the graphics on the item.  Required if graphics are used. |Horizontal|Text|900|Left|200|Left||||Active||NULL|
+mcdROClassification|N|||text||10|1|N|McdClassificationVV||||||||R|N|en|Classification Category - Product Group|McD defined product classification. Used in conjunction with Product Classification.|Horizontal|Text|1000|Left|200|Left||||Active||NULL|

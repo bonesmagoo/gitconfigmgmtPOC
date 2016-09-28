@@ -1,0 +1,40 @@
+﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
+kroBanner_Product_NetContentEUOM|N||||||||||||||||R|N|en|Net Content|Net Content and Equivalent UOM|Banner|Label|100|Left|200|Left||||Active||NULL|
+netContent|Y||100|float|38|38|15|||M|uom|text||5|2|AreaCountDimensionInfostorageMassVolumeUOM|E|N|en|Net Content & UOM - Vendor|The amount of the product contained in the package, usually as claimed on the label. If a product’s net content can be represented in multiple values – please provide all values (e.g. laundry detergent – 150 fluid ounces 1.17 gallons, 96 loads).|Horizontal|Float|200|Left|200|Left||||Active||MANDATORY_BEFORE|
+kroNetContentEquivalentUOMV12690|N|||float|8|8|3|||M|uom|text||60|1|KRO_V12690|E|N|en|Net Content Equivalent UOM - VIP to Kroger|Quantity in Equivalent selling uom|Horizontal|Float|300|Left|200|Left||||Active||NULL|
+kroRequiredEquivalentUOMOverride|N|||boolean|||||||||||||E|N|en|Net Content Equivalent UOM Override|Override indicator for Net Content Equivalent UOM - VIP to Kroger: By selecting ‘Yes’ you are indicating the required EUOM for this item cannot be provided|Horizontal|Boolean|400|Left|200|Left||||Active||MANDATORY_BEFORE|
+kroEquivalentUOMQuantityOverride|N|||float|7|7|2|||M|uom|text||60|1|KRO_V10742|E|N|en|Net Content Equivalent UOM VIP to Kroger Override|Indicates Kroger required EUOM. Please complete class popup attributes in order to obtain Kroger required EUOM|Horizontal|Float|500|Left|200|Left||||Active||NULL|
+kroBanner_Product_Description|N||||||||||||||||R|N|en|Product Description|Product Description|Banner|Label|600|Left|200|Left||||Active||NULL|
+kroBatteriesRequired|N|||text||60|1||KRO_V11858||||||||E|N|en|Batteries Required|Identifies if batteries are required to use the product.|Horizontal|Dropdown|700|Left|200|Left||||Active||NULL|
+kroColorV10825|Y||100|text||60|1|N|KRO_V10825||||||||E|N|en|Color|Indicates the color of the trade item.|Horizontal|Multi_Select_List|800|Left|200|Left||||Active||NULL|
+kroOtherColor|Y||100|text||100|1|N|||||||||E|N|en|Other Color|Indicates additional potential colors not included on the valid value list for attribute 588 Color.|Horizontal|Text|900|Left|200|Left||||Active||NULL|
+kroConsumerProductTypeV11931|N|||text||60|1||KRO_V11931||||||||E|N|en|Consumer Product Type|Identify the type of product.|Horizontal|Dropdown|1000|Left|200|Left||||Active||MANDATORY_BEFORE|
+kroCordLength|N|||text||100|1||||||||||E|N|en|Cord Length|Length of cord.|Horizontal|Text|1100|Left|200|Left||||Active||NULL|
+kroGroundedV11926|N|||text||60|1||KRO_V11926||||||||E|N|en|Grounded|Identifies if the product is grounded.|Horizontal|Dropdown|1200|Left|200|Left||||Active||MANDATORY_BEFORE|
+kroIlluminationTypeV11908|N|||text||60|1||KRO_V11908||||||||E|N|en|Illumination Type|Identifies the type Illumination of product.|Horizontal|Dropdown|1300|Left|200|Left||||Active||NULL|
+kroLightOutPutV11921|N|||text||60|1||KRO_V11921||||||||E|N|en|Light Output|Identifies the brightness of a product in lumens.|Horizontal|Dropdown|1400|Left|200|Left||||Active||NULL|
+kroLightSensorV11930|N|||text||60|1||KRO_V11930||||||||E|N|en|Light Sensor|Identifies if the product has a light sensor.|Horizontal|Dropdown|1500|Left|200|Left||||Active||MANDATORY_BEFORE|
+kroPowerSourceV10575|N|||text||60|1||KRO_V10575||||||||E|N|en|Power Source|Identifies how a product gets its power.  Either batteries or electricity.|Horizontal|Dropdown|1600|Left|200|Left||||Active||NULL|
+kroProgrammable|N|||text||60|1||KRO_V11765||||||||E|N|en|Programmable|Identifies if the product is programmable.|Horizontal|Dropdown|1700|Left|200|Left||||Active||NULL|
+kroProgrammingMethodV11837|N|||text||60|1||KRO_V11837||||||||E|N|en|Programming Method|Identifies the method of programming.|Horizontal|Dropdown|1800|Left|200|Left||||Active||NULL|
+kroRemoteControlIncluded|N|||text||60|1||KRO_V11766||||||||E|N|en|Remote Control Included|Identifies if the item has a remote control included.|Horizontal|Dropdown|1900|Left|200|Left||||Active||MANDATORY_BEFORE|
+kroSurgeProtectionV11925|N|||text||60|1||KRO_V11925||||||||E|N|en|Surge Protection|Identifies if the product provides surge protection.|Horizontal|Dropdown|2000|Left|200|Left||||Active||MANDATORY_BEFORE|
+kroTypeOfGasSmokeDetectorV11924|N|||text||60|1||KRO_V11924||||||||E|N|en|Type of Gas/Smoke Detector|Identifies the type of Gas/Smoke detector.|Horizontal|Dropdown|2100|Left|200|Left||||Active||NULL|
+kroTypeOfSwitchV11927|N|||text||60|1||KRO_V11927||||||||E|N|en|Type of Switch|Identifies the type of electrical switch.|Horizontal|Dropdown|2200|Left|200|Left||||Active||NULL|
+kroTypeOfWallPlateV11928|N|||text||60|1||KRO_V11928||||||||E|N|en|Type of Wall Plate|Identifies the type of wall plate.|Horizontal|Dropdown|2300|Left|200|Left||||Active||NULL|
+kroULApprovedV11932|N|||text||60|1||KRO_V11932||||||||E|N|en|UL Approved|Identifies if the product is approved by Underwriter Laboratories.|Horizontal|Dropdown|2400|Left|200|Left||||Active||MANDATORY_BEFORE|
+kroWallMounted|N|||text||60|1||KRO_V10920||||||||E|N|en|Wall Mounted|The descriptive term that is used by the product manufacturer to identify whether the product can be mounted on a wall.|Horizontal|Dropdown|2500|Left|200|Left||||Active||NULL|
+kroWorkLightFormV11929|N|||text||60|1||KRO_V11929||||||||E|N|en|Work Light Form|Identifies the physical form of a product.|Horizontal|Dropdown|2600|Left|200|Left||||Active||NULL|
+kroBanner_Product_Processing|N||||||||||||||||R|N|en|Product Processing|Product Processing|Banner|Label|2700|Left|200|Left||||Active||NULL|
+kroIndoorOrOutdoorUseV10168|N|||text||60|1|N|KRO_V10168||||||||E|N|en|Indoor or Outdoor Use|Identify if the product is used indoors or outdoors.|Horizontal|dropdown|2800|Left|200|Left||||Active||MANDATORY_BEFORE|
+kroNumberOfOutlets|N|||integer||2|1||||||||||E|N|en|Number of Outlets|Identifies the number of electrical outlets on a product.|Horizontal|Integer|2900|Left|200|Left||||Active||NULL|
+kroBanner_Packaging_Serving|N||||||||||||||||R|N|en|Packaging/Serving|Packaging/Serving|Banner|Label|3000|Left|200|Left||||Active||NULL|
+kroBatteryIncluded|N|||boolean|||||||||||||E|N|en|Battery Included|Identify if the required battery for the product is included|Horizontal|boolean|3100|Left|200|Left||||Active||NULL|
+kroProductEASTagged|N|||boolean|||||||||||||E|N|en|Item is EAS Tagged|Identifies if the product is EAS tagged by the supplier.  |Horizontal|Boolean|3200|Left|200|Left||||Active||MANDATORY_BEFORE|
+kroOnOffSwitch|N|||text||60|1||KRO_V11879||||||||E|N|en|On/Off Switch|Identify if the product has an on/off switch.|Horizontal|Dropdown|3300|Left|200|Left||||Active||MANDATORY_BEFORE|
+kroPercentOfProductTaggedWithEAS|N|||float|5|5|2||||||||||E|N|en|Percent of Product Tagged with EAS|If it isn't cost effective to tag all of the item e.g. lipstick, what's the proposed percentage of UPCs to be tagged|Horizontal|Float|3400|Left|200|Left||||Active||NULL|
+securityTagInformation/securityTagLocationCode|N|securityTagInformation|100|text||80|1|N|SecurityTagLocation||||||||E|N|en|Security Tag Location|Value to identify where the EAS tag is located on the product.|LoopGroup|Dropdown|3500|Left|200|Left||||Active||NULL|
+securityTagInformation/securityTagTypeCode|N|securityTagInformation|100|text||80|1|N|SecurityTagType||||||||E|N|en|Security Tag Type|Type of the EAS tag on the item|LoopGroup|Dropdown|3600|Left|200|Left||||Active||NULL|
+kroBanner_WIC_Additional_Nutrition|N||||||||||||||||R|N|en|WIC/Additional Nutrition|WIC/Additional Nutrition|Banner|Label|3700|Left|200|Left||||Active||NULL|
+kroBanner_Nutritional_Diet|N||||||||||||||||R|N|en|Nutritional/Diet|Nutritional/Diet|Banner|Label|3800|Left|200|Left||||Active||NULL|
+kroBanner_Hazard|N||||||||||||||||R|N|en|Hazard|Hazard|Banner|Label|3900|Left|200|Left||||Active||NULL|

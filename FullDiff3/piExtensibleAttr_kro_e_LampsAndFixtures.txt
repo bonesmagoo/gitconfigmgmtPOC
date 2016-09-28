@@ -1,0 +1,6 @@
+﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
+avp/cleaningMethod|N|||text||70|1|N|||||||||E|N|en|Cleaning Method|cleaningMethod<br>Qualifier: AVP198<br>Indicates the method in which to clean the product.|Horizontal|Text|100|Left|200|Left||||Active||NULL|
+tradeItemFinishDescription|Y|||text||70|1|||M|lang|text||5|1|StandardLanguageCodes_hub|E|N|en|Finish Description|Attribute which defines the outer surface/appearance of the product.|Horizontal|Text|200|Left|200|Left||||Active||NULL|
+kroStyleDescription|N||1|text||70|1|N|||||||||E|N|en|Style Description|Describes the style of the product.|Horizontal|Text|300|Left|200|Left||||Active||NULL|
+kroLuminationColor|Y||10|text||70|1|N|||||||||E|N|en|Lumination Color|Lumination color descriptor.|Horizontal|Text|400|Left|200|Left||||Active||NULL|
+kroPowerSource|N||1|text||70|1|N|KroPowerSourceVV||||||||E|N|en|Power Source|What is the power source for this item?|Horizontal|Dropdown|500|Left|200|Left||||Active||NULL|

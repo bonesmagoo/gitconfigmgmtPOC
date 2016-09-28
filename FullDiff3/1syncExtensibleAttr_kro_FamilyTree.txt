@@ -1,0 +1,4 @@
+﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
+kroFamilyTreeClass|N|||text||3|1|N|||||||||E|N|en|Kroger Family Tree Class|Family Tree Class code that the item belongs to. Previously known as Commodity.|Horizontal|Text|100|Left|200|Left||||Active||NULL|
+kroFamilyTreeRecapDepartment|N|||text||2|1|N|||||||||E|N|en|Kroger Family Tree Recap Department|Kroger Family Tree Recap Department that the products belongs to.|Horizontal|Text|200|Left|200|Left||||Active||NULL|
+kroFamilyTreeSubDepartment|N|||text||2|1|N|||||||||E|N|en|Kroger Family Tree Sub-Department|Kroger Family Tree Sub Department that the product belongs to.|Horizontal|Text|300|Left|200|Left||||Active||NULL|

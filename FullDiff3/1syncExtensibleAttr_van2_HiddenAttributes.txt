@@ -1,0 +1,2 @@
+﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
+itemIdentifier|N|||text||80|1|N|||||||||R|N|en|GTIN/Item Identifier|Identifier to be used in 1SYNC Product Introduction when an product does not have a GTIN.|Horizontal|Text|100|Left|200|Left||||Active||NULL|

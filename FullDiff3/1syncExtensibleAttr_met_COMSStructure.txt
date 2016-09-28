@@ -1,0 +1,5 @@
+﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
+metDepartment|N|||text||10|1||||||||||E|N|en|Department|Department|Horizontal|Text|999100|Left|200|Left||||Active||NULL|
+metMainMerchandizingGroup|N|||text||10|1||||||||||E|N|en|Main Merchandizing Group|Main Merchandizing Group|Horizontal|Text|999200|Left|200|Left||||Active||NULL|
+metMerchandizingGroup|N|||text||10|1|N|||||||||E|N|en|Merchandizing Group|Merchandizing Group|Horizontal|Text|999300|Left|200|Left||||Active||NULL|
+metMerchandizingSubGroup|N|||text||10|1|N|||||||||E|N|en|Merchandizing Sub Group|Merchandizing Sub Group|Horizontal|Text|999400|Left|200|Left||||Active||NULL|

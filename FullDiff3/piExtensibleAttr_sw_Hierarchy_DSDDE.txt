@@ -1,0 +1,2 @@
+﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
+swDSDController/swDSDSetup|N|swDSDController|999|boolean|||||||||||||E|N|en|DSD Setup|Indicates that Data Entry step for DSD has been completed|LoopGroup|Boolean|100|Left|200|Left||||Active||NULL|

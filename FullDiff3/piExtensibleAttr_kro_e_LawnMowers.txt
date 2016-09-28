@@ -1,0 +1,3 @@
+﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
+kroPowerSource|N||1|text||70|1|N|KroPowerSourceVV||||||||E|N|en|Power Source|What is the power source for this item?|Horizontal|Dropdown|100|Left|200|Left||||Active||NULL|
+kroCuttingSwath|N||1|float|15|15|15|||M|uom|text||30|1|KroComponentLinearUOM|E|N|en|Cutting Swath|The diameter of the cutting area.|Horizontal|Float|200|Left|200|Left||||Active||NULL|

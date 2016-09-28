@@ -1,0 +1,2 @@
+﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
+totalQuantityOfNextLowerTradeItem|N|||integer||6|1||||||||||R|N|en|Qty of Next Level Item(s)|The total number of next lower level products contained within this specific product hierarchy level (e.g. – CASE product type contains 24 consumer units, the qty of next level items = 24).|Horizontal|Integer|100|Left|200|Left||||Active||MANDATORY_BEFORE|

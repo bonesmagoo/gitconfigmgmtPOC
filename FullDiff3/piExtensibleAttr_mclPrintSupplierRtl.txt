@@ -1,0 +1,23 @@
+﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
+mclGeneralInfoBanner|N||||||||||||||||R|N|en|General Information|General Information|Banner|Label|100|Left|200|Left||||Active||NULL|
+mclShortDescription/mclProductTypeOfShortDescription|N|mclShortDescription|100|text||2|1|N|ProductTypeCodes_hub||||||||R|N|en|Product Type|Describes the hierarchical level of the trade item.|LoopGroupRo |Text|200|Left|100|Left||||Active||NULL|
+mclShortDescription/mclGtinOfShortDescription|N|mclShortDescription|100|text||14|1|N|||||||||R|N|en|GTIN|The Global Trade Item Number is the standard 14-digit number used to identify all trade items in 1SYNC Item Management. For a more detailed definition, refer to the introductory section of this document.|LoopGroupRo |Text|300|Left|20|Left|20|||Active||NULL|
+mclShortDescription/mclShortDescription|N|mclShortDescription|100|text||25|1||||||||||R|N|en|Short Description|Free form field that will be sent to mainframe. Mandatory for new items.  Example: MARL BX|LoopGroupRo |Text|400|Left|200|Left|40|||Active||NULL|
+mclSize|N|||text||8|1||||||||||R|N|en|Size|Size of retail product. Example: KING|Horizontal|Text|500|Left|200|Left||||Active||NULL|
+mclOrderSellingInfoBanner|N||||||||||||||||R|N|en|Order & Selling Information|Order & Selling Information|Banner|Label|600|Left|200|Left||||Active||NULL|
+mclSellType|N|||text||15|1||mcl_SellTypes||||||||R|N|en|Sell Type|Sell type to customers.  Example: Full Case|Horizontal|Dropdown|700|Left|200|Left||||Active||NULL|
+mclCubiscanInformationBanner|N||||||||||||||||R|N|en|Cubiscan Information|Cubiscan Information|Banner|Label|800|Left|200|Left||||Active||NULL|
+mclCubiscanCode|N|||text||38|1||mcl_CubiscanCodes||||||||R|N|en|CUBISCAN CODE|Codes to track if an item has been cubiscaned.  Example: Cubiscaned|Horizontal|Dropdown|900|Left|200|Left||||Active||NULL|
+mclCubiscan/mclCubiscanDate|N|mclCubiscan|100|datetime|||||||||||||R|N|en|Cubiscan Date|Date an item was cubiscaned.  Example: 39857|LoopGroupRo |Date|1000|Left|150|Left|150|||Active||NULL|
+mclCubiscan/mclCubiscanProductType|N|mclCubiscan|100|text||2|1|N|ProductTypeCodes_hub||||||||R|N|en|Product Type|Describes the hierarchical level of the trade item.|LoopGroupRo |Text|1100|Left|100|Left||||Active||NULL|
+mclCubiscan/mclCubiscanGTIN|N|mclCubiscan|100|text||14|1|N|||||||||R|N|en|Cubiscan GTIN|GTIN of the item that was cusbiscaned|LoopGroupRo |Text|1200|Left|20|Left|20|||Active||NULL|
+mclCubiscan/mclCubiscanLengthDepth|N|mclCubiscan|100|float|5|5|2||||||||||R|N|en|Cubiscan Length (Depth)|Depth of case, always in inches.  Example: 17.25|LoopGroupRo |Float|1300|Left|100|Left||||Active||NULL|
+mclCubiscan/mclCubiscanWidth|N|mclCubiscan|100|float|5|5|2||||||||||R|N|en|Cubiscan Width|Width of case, always in inches.  Example: 10.15|LoopGroupRo |Float|1400|Left|100|Left||||Active||NULL|
+mclCubiscan/mclCubiscanHeight|N|mclCubiscan|100|float|5|5|2||||||||||R|N|en|Cubiscan Height|Height of case, always in inches.  Example: 15.25|LoopGroupRo |Float|1500|Left|100|Left||||Active||NULL|
+mclCubiscan/mclCubiscanWeight|N|mclCubiscan|100|float|7|7|2|||M|uom|text||10|1|mcl_CubiscanWeights|R|N|en|Cubiscan Weight & UOM|Weight of case,ounces or pounds.  Example: 15.2|LoopGroupRo |Float|1600|Left|200|Left|100|||Active||NULL|
+mclPackagingInformationBanner|N||||||||||||||||R|N|en|Packaging Information|Packaging Information|Banner|Label|1700|Left|200|Left||||Active||NULL|
+mclPack|N|||integer||4|1||||||||||R|N|en|Pack|number of retails in an inner.  Example: 12|Horizontal|Integer|1800|Left|200|Left||||Active||NULL|
+mclRepack|N|||integer||5|1||||||||||R|N|en|Repack|Number of inner's in a case.  Example: 8|Horizontal|Integer|1900|Left|200|Left||||Active||NULL|
+mclConsumerUnits/mclProductTypeOfConsumerUnits|N|mclConsumerUnits|100|text||2|1|N|ProductTypeCodes_hub||||||||R|N|en|Consumer Units Product Type|Describes the hierarchical level of the trade item.|LoopGroupRo |Text|2000|Left|100|Left||||Active||NULL|
+mclConsumerUnits/mclGtinOfConsumerUnits|N|mclConsumerUnits|100|text||14|1|N|||||||||R|N|en|Consumer Units GTIN|The Global Trade Item Number is the standard 14-digit number used to identify all trade items in 1SYNC Item Management. For a more detailed definition, refer to the introductory section of this document.|LoopGroupRo |Text|2100|Left|20|Left|20|||Active||NULL|
+mclConsumerUnits/mclConsumerUnits|N|mclConsumerUnits|100|integer||6|1||||||||||R|N|en|Consumer Units|Number of consumer units in case. Example: 12|LoopGroupRo |Integer|2200|Left|100|Left||||Active||NULL|

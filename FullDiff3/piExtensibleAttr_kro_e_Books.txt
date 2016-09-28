@@ -1,0 +1,7 @@
+﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
+targetConsumerAge|Y|||text||70|1|||M|lang|text||5|1|StandardLanguageCodes_hub|E|N|en|Target Consumer Age|Identifies the target consumer age range for which a trade item has been designed.|Horizontal|Text|100|Left|200|Left||||Active||NULL|
+avp/publisherName|N|||text||70|1|N|||||||||E|N|en|Publisher Name|IM: publisherName, GDSN: publisherName<br>The publisher of the book.|Horizontal|Text|200|Left|200|Left||||Active||NULL|
+kroProductGenre|N||1|text||70|1|N|KroGenreVV||||||||E|N|en|Genre|The code of the genre for this electronic games trade item. The genre is a categorization of the trade item based upon the content and maintained for marketing and merchandising purposes.|Horizontal|Dropdown|300|Left|200|Left||||Active||MANDATORY_BEFORE|
+kroPublicationDate|N||1|dateTime|||||||||||||E|N|en|Publication Date|The date of publication.|Horizontal|DateTime|400|Left|200|Left||||Active||MANDATORY_BEFORE|
+kroEdition|N||1|text||70|1|N|||||||||E|N|en|Edition|The edition type of this book.|Horizontal|Text|500|Left|200|Left||||Active||NULL|
+audioVisualMediaContentInformation|N||||||||||||||||E|N|en|Audio Visual Media Content Information|Information on the media included in the package for the purposes of storing the software, games, music, films.|Horizontal|FLEX_POPUP|600|Left|200|Left||||Active||NULL|

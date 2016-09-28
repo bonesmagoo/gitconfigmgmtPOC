@@ -1,0 +1,7 @@
+﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
+avp/cleaningMethod|N|||text||70|1|N|||||||||E|N|en|Cleaning Method|cleaningMethod<br>Qualifier: AVP198<br>Indicates the method in which to clean the product.|Horizontal|Text|100|Left|200|Left||||Active||NULL|
+kroApplianceCapability|Y||100|text||70|1|N|||||||||E|N|en|Appliance Capabilities|Indicates a distinct use to which this product can be applied.|Horizontal|Text|200|Left|200|Left||||Active||NULL|
+kroApplianceSetting|Y||100|text||70|1|N|||||||||E|N|en|Appliance Settings|Indicates a setting which can be adjusted in use of this product.|Horizontal|Text|300|Left|200|Left||||Active||NULL|
+avp/hasNonStickCoating|N|||boolean|||||||||||||E|N|en|Has Non-stick Coating?|hasNonStickCoating<br>Qualifier: AVP359<br>Indicates whether or not the product has a non-stick coating.|Horizontal|Boolean|400|Left|200|Left||||Active||NULL|
+kroDishwasherSafe|N|||boolean|||||||||||||E|N|en|Dishwasher Safe|Can this product be washed in an automatic dishwasher?|Horizontal|Boolean|500|Left|200|Left||||Active||NULL|
+kroControls|Y||100|text||70|1|N|||||||||E|N|en|Controls|A description of each type of adjustable controls available on this product.|Horizontal|Text|600|Left|200|Left||||Active||NULL|

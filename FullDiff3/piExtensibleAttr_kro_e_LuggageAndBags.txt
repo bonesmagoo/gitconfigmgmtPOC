@@ -1,0 +1,2 @@
+﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
+kroStyleDescription|N||1|text||70|1|N|||||||||E|N|en|Style Description|Describes the style of the product.|Horizontal|Text|100|Left|200|Left||||Active||NULL|

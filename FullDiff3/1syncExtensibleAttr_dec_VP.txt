@@ -1,0 +1,6 @@
+﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
+decFlexPackaging|N|||boolean|||||||||||||E|N|en|Flex Packaging|Product packaging that can be displayed laying down or standing up.|Horizontal|Boolean|4500|Left|200|Left||||Active||NULL|
+decHundredCalorie|N|||boolean|||||||||||||E|N|en|Hundred Calories|A statement of fact that a portion-controlled pack contains 100 calories|Horizontal|Boolean|4600|Left|200|Left||||Active||NULL|
+decItemUpc|N|||text||14|1|N|||||||||R|N|en|Item UPC|GTIN-12 (includes the check digit)|Horizontal|Text|4700|Left|200|Left||||Active||NULL|
+decNonGmo|N|||boolean|||||||||||||E|N|en|Non-GMO (Yes or No)|The item is physically marked as of genetically modified origin|Horizontal|Boolean|4800|Left|200|Left||||Active||NULL|
+decReadyToCook|N|||boolean|||||||||||||E|N|en|Ready To Cook (RTC)|Foods that have been seasoned and prepared, but must be cooked.|Horizontal|Boolean|5100|Left|200|Left||||Active||NULL|
