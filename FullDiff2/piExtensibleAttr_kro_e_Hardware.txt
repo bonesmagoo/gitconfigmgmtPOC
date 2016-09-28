@@ -1,4 +1,4 @@
 ﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
 isAssemblyRequired|N|||boolean|||||||||||||E|N|en|Assembly Required|Indicates that the Items in the package need to be assembled for use.|Horizontal|Boolean|100|Left|200|Left||||Active||NULL|150
-kroStyleDescription|N||1|text||70|1|N|||||||||E|N|en|Style Description|Describes the style of the product.|Horizontal|Text|300|Left|200|Left||||Active||NULL|148
 tradeItemFinishDescription|Y|||text||70|1|||M|lang|text||5|1|StandardLanguageCodes_hub|E|N|en|Finish Description|Attribute which defines the outer surface/appearance of the product.|Horizontal|Text|200|Left|200|Left||||Active||NULL|120; PI52_QA19
+kroStyleDescription|N||1|text||70|1|N|||||||||E|N|en|Style Description|Describes the style of the product.|Horizontal|Text|300|Left|200|Left||||Active||NULL|148

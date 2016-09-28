@@ -1,5 +1,5 @@
 ﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
-dataCarrier/dataCarrierTypeCode|N|dataCarrier|100|text||80|1|N|DataCarrierTypeCode||||||||E|N|en|Data Carrier Type Code|Value that identifies the type of bar code that is on the product.|LoopGroup|DropDown|1800|Left|200|Left||||Active||MANDATORY_BEFORE|PIMJR3 Update
-hasBatchNumber|N|||boolean|||||||||||||E|N|en|Has Batch Number|Indicates if the product has a batch number provided.|Horizontal|Boolean|90800|Left|200|Left||||Active||NULL|1.5.2CTX;
 kroBanner_Core_Identiifers|N||||||||||||||||R|N|en|Identifiers & Descriptors|Indentifiers & Descriptors|Banner|Label|100|Left|200|Left||||Active||NULL|1.5.2CTX;
+dataCarrier/dataCarrierTypeCode|N|dataCarrier|100|text||80|1|N|DataCarrierTypeCode||||||||E|N|en|Data Carrier Type Code|Value that identifies the type of bar code that is on the product.|LoopGroup|DropDown|1800|Left|200|Left||||Active||MANDATORY_BEFORE|DeCA phase 2
 kroBanner_Merch_Descriptors|N||||||||||||||||R|N|en|Product Packaging and Descriptors|Product Packaging and Descriptors|Banner|Label|90000|Left|200|Left||||Active||NULL|1.5.2CTX;
+hasBatchNumber|N|||boolean|||||||||||||E|N|en|Has Batch Number|Indicates if the product has a batch number provided.|Horizontal|Boolean|90800|Left|200|Left||||Active||NULL|1.5.2CTX;

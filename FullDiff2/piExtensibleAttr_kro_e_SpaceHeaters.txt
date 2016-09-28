@@ -1,4 +1,4 @@
 ﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
-avp/applianceWattage|N|||integer||4|1||||||||||E|N|en|Appliance Wattage|applianceWattage<br>Qualifier: AVP144<br>Identifies the number of watts, in which the product operates efficiently. Measured in Watts.|Horizontal|Integer|200|Left|200|Left||||Active||NULL|AVP
 kroControls|Y||100|text||70|1|N|||||||||E|N|en|Controls|A description of each type of adjustable controls available on this product.|Horizontal|Text|100|Left|200|Left||||Active||NULL|312
+avp/applianceWattage|N|||integer||4|1||||||||||E|N|en|Appliance Wattage|applianceWattage<br>Qualifier: AVP144<br>Identifies the number of watts, in which the product operates efficiently. Measured in Watts.|Horizontal|Integer|200|Left|200|Left||||Active||NULL|AVP
 warrantyInformation|N||||||||||||||||E|N|en|Warranty Information Link|Warranty Information Link|Horizontal|FLEX_POPUP|300|Left|200|Left||||Active||NULL|MJR3

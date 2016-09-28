@@ -1,19 +1,19 @@
 ﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
-mcdAccountCodePrefix|N|||text||10|1|N|||||||||E|N|en|Account Code Prefix|Account Code Prefix|Horizontal|Text|300|Left|200|Left||||Active||NULL|PI15501_QA02
-mcdAccountCodeSuffix|N|||text||10|1|N|||||||||E|N|en|Account Code Suffix|Account Code Suffix|Horizontal|Text|400|Left|200|Left||||Active||NULL|PI15501_QA02
-mcdCampaignEndDate|N|||dateTime|||||||||||||E|N|en|Campaign End Date|The End Date of the promotional campaign|Horizontal|Date|700|Left|200|Left||||Active||NULL|PI1552_03
-mcdCampaignLocation|N|||text||30|1|N|||||||||E|N|en|Campaign Location|Global/TM|Horizontal|Text|900|Left|200|Left||||Active||NULL|PI15501_QA02
-mcdCampaignName|Y|||text||70|1|||M|lang|text||5|1|StandardLanguageCodes_hub|E|N|en|Campaign Name|The name/description  of the promotional campaign|Horizontal|Text|500|Left|200|Left||||Active||NULL|PI1552_03
-mcdCampaignStartDate|N|||dateTime|||||||||||||E|N|en|Campaign Start Date|The Start Date of the promotional campaign|Horizontal|Date|600|Left|200|Left||||Active||NULL|PI1552_03
-mcdGraphics|N|||text||30|1||||||||||E|N|en|Graphics| Describes the graphics on the item.  Required if graphics are used. |Horizontal|Text|1800|Left|200|Left||||Active||NULL|PI1589_IM689_08, PI1589_IM689_09
-mcdInventoryTypeCode|N|||text||2|1|N|||||||||E|N|en|McDs Type|Occurrence|Horizontal|Text|1300|Left|200|Left||||Active||NULL|PI15501_QA02
-mcdItemDescriptionPrefix|N|||text||15|1|N|||||||||E|N|en|Full WRIN Short Description|M/O/D|Horizontal|Text|1100|Left|200|Left||||Active||NULL|PI15501_QA02; PI159_IM689_08
-mcdItemDescriptionSuffix|N|||text||30|1|N|||||||||E|N|en|Full WRIN Long Description|Type/Size|Horizontal|Text|1200|Left|200|Left||||Active||NULL|PI15501_QA02; PI159_IM689_08
-mcdPortionControl|N|||boolean||||N|||||||||E|N|en|Portion Control|Identifies if item requires portion control: bulk vs prepackaged.  Typically not put in a recipe if it is portion controlled|Horizontal|Boolean|1400|Left|200|Left||||Active||NULL|PI15501_QA02; PI159_IM689_08; PI1512_03
-mcdQualitySupplierFileNumber|N|||text||10|1|N|||||||||R|N|en|Quality Supplier File Number |Food item spec number in Merlin (7 digit number)|Horizontal|Text|1500|Left|200|Left||||Active||NULL|PI157_02; PI157_03
-mcdQualitySupplierFileVersionNumber|N|||text||10|1|N|||||||||R|N|en|Quality Supplier File Version Number |Food item spec version number in Merlin (3 digit number)|Horizontal|Text|1600|Left|200|Left||||Active||NULL|PI157_02; PI157_03
-mcdRequestorLocale|N|||text||2|1|N|||||||||E|N|en|Where Used|Actually represents requestor, not where used since only 1 country can be entered & is not updated on a later date|Horizontal|Text|1700|Left|200|Left||||Active||NULL|PI15501_QA02; PI159_IM689_08
-mcdTargetConsumerAge|Y|||text||70|1|||M|lang|text||5|1|StandardLanguageCodes_hub|E|N|en|Target Consumer Age|Identifies the target consumer age range for which a trade item has been designed.|Horizontal|Text|800|Left|200|Left||||Active||NULL|PI15501_QA01, PI164_IM6818_SEP04
 mcdWrinPrefix|N|||text||5|1|N|||||||||E|N|en|WRIN Prefix|WRIN Prefix|Horizontal|Text|100|Left|200|Left||||Active||MANDATORY_BEFORE|PI15501_QA02
 mcdWrinSuffix|N|||text||3|1|N|||||||||E|N|en|WRIN Suffix|WRIN Suffix|Horizontal|Text|200|Left|200|Left||||Active||MANDATORY_BEFORE|PI15501_QA02
-mcdWSINumber|Y||999|text||70|1||||||||||E|N|en|WSI Number|IM GUI Tab|Horizontal|Text|1000|Left|200|Left||||Active||NULL|PI1589_IM689_08; PI159_IM689_09
+mcdAccountCodePrefix|N|||text||10|1|N|||||||||E|N|en|Account Code Prefix|Account Code Prefix|Horizontal|Text|300|Left|200|Left||||Active||NULL|PI15501_QA02
+mcdAccountCodeSuffix|N|||text||10|1|N|||||||||E|N|en|Account Code Suffix|Account Code Suffix|Horizontal|Text|400|Left|200|Left||||Active||NULL|PI15501_QA02
+mcdCampaignName|Y|||text||70|1|||M|lang|text||5|1|StandardLanguageCodes_hub|E|N|en|Campaign Name|The name/description  of the promotional campaign|Horizontal|Text|500|Left|200|Left||||Active||NULL|PI1552_03
+mcdCampaignStartDate|N|||dateTime|||||||||||||E|N|en|Campaign Start Date|The Start Date of the promotional campaign|Horizontal|Date|600|Left|200|Left||||Active||NULL|PI1552_03
+mcdCampaignEndDate|N|||dateTime|||||||||||||E|N|en|Campaign End Date|The End Date of the promotional campaign|Horizontal|Date|700|Left|200|Left||||Active||NULL|PI1552_03
+mcdTargetConsumerAge|Y|||text||70|1|||M|lang|text||5|1|StandardLanguageCodes_hub|E|N|en|Target Consumer Age|Identifies the target consumer age range for which a trade item has been designed.|Horizontal|Text|800|Left|200|Left||||Active||NULL|PI15501_QA02, PI164_IM6818_SEP04
+mcdCampaignLocation|N|||text||30|1|N|||||||||E|N|en|Campaign Location|Global/TM|Horizontal|Text|900|Left|200|Left||||Active||NULL|PI15501_QA02
+mcdWSINumber|Y||999|text||70|1||||||||||E|N|en|WSI Number|IM GUI Tab|Horizontal|Text|1000|Left|200|Left||||Active||NULL|PI1589_IM689_08
+mcdItemDescriptionPrefix|N|||text||15|1|N|||||||||E|N|en|Full WRIN Short Description|M/O/D|Horizontal|Text|1100|Left|200|Left||||Active||NULL|PI15501_QA02; PI159_IM689_08
+mcdItemDescriptionSuffix|N|||text||30|1|N|||||||||E|N|en|Full WRIN Long Description|Type/Size|Horizontal|Text|1200|Left|200|Left||||Active||NULL|PI15501_QA02; PI159_IM689_08
+mcdInventoryTypeCode|N|||text||2|1|N|||||||||E|N|en|McDs Type|Occurrence|Horizontal|Text|1300|Left|200|Left||||Active||NULL|PI15501_QA02
+mcdPortionControl|N|||boolean||||N|||||||||E|N|en|Portion Control|Identifies if item requires portion control: bulk vs prepackaged.  Typically not put in a recipe if it is portion controlled|Horizontal|Boolean|1400|Left|200|Left||||Active||NULL|PI15501_QA02; PI159_IM689_08; PI1512_03
+mcdQualitySupplierFileNumber|N|||text||10|1|N|||||||||R|N|en|Quality Supplier File Number |Food item spec number in Merlin (7 digit number)|Horizontal|Text|1500|Left|200|Left||||Active||NULL|PI15501_QA02; PI157_03
+mcdQualitySupplierFileVersionNumber|N|||text||10|1|N|||||||||R|N|en|Quality Supplier File Version Number |Food item spec version number in Merlin (3 digit number)|Horizontal|Text|1600|Left|200|Left||||Active||NULL|PI15501_QA02; PI157_03
+mcdRequestorLocale|N|||text||2|1|N|||||||||E|N|en|Where Used|Actually represents requestor, not where used since only 1 country can be entered & is not updated on a later date|Horizontal|Text|1700|Left|200|Left||||Active||NULL|PI15501_QA02; PI159_IM689_08
+mcdGraphics|N|||text||30|1||||||||||E|N|en|Graphics| Describes the graphics on the item.  Required if graphics are used. |Horizontal|Text|1800|Left|200|Left||||Active||NULL|PI1589_IM689_08

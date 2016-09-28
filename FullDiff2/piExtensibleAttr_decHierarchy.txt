@@ -1,5 +1,5 @@
 ﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
 decSupplierContact|N|||text||40|1||||||||||E|N|en|Supplier Contact|Supplier Contact|Horizontal|Text|200|Left|200|Left||||Active||NULL|PI173_IM711_Aug01
-decSupplierContactAddress|N|||text||150|1||||||||||E|N|en|Contact Address|The address provided by point of contact|Horizontal|Text|500|Left|200|Left||||Active||NULL|DeCA phase 2
-decSupplierContactEmail|N|||text||400|1||||||||||E|N|en|Supplier Contact Email|Enter the email address of the main account representative.|Horizontal|Text|400|Left|200|Left||||Active||NULL|PI173_IM711_Aug01
 decSupplierContactPhoneNumber|N|||text||20|1||||||||||E|N|en|Supplier Contact Phone Number|Supplier Contact Phone Number|Horizontal|Text|300|Left|200|Left||||Active||NULL|PI173_IM711_Aug01
+decSupplierContactEmail|N|||text||400|1||||||||||E|N|en|Supplier Contact Email|Enter the email address of the main account representative.|Horizontal|Text|400|Left|200|Left||||Active||NULL|PI173_IM711_Aug01
+decSupplierContactAddress|N|||text||150|1||||||||||E|N|en|Contact Address|The address provided by point of contact|Horizontal|Text|500|Left|200|Left||||Active||NULL|DeCA phase 2
