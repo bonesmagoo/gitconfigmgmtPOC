@@ -1,27 +1,27 @@
 ﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
+mclBogusFlag|N|||boolean|||||||||||||R|N|en|Bogus Flag|No retail UPC, Bulk item.  Example: check mark|Horizontal|Boolean|1400|Left|200|Left||||Active||NULL|
+mclBuyerNumber|N|||text||2|1||||||||||E|N|en|Buyer #|Numeric Field.  Example: 45|Horizontal|Text|700|Left|200|Left||||Active||MANDATORY_BEFORE|
+mclConsumerUnits/mclConsumerUnits|N|mclConsumerUnits|100|integer||6|1||||||||||R|N|en|Consumer Units|Number of consumer units in case. Example: 12|LoopGroupRo |Integer|2600|Left|100|Left||||Active||NULL|
+mclConsumerUnits/mclGtinOfConsumerUnits|N|mclConsumerUnits|100|text||14|1|N|||||||||R|N|en|Consumer Units GTIN|The Global Trade Item Number is the standard 14-digit number used to identify all trade items in 1SYNC Item Management. For a more detailed definition, refer to the introductory section of this document.|LoopGroupRo |Text|2500|Left|20|Left|20|||Active||NULL|
+mclConsumerUnits/mclProductTypeOfConsumerUnits|N|mclConsumerUnits|100|text||2|1|N|ProductTypeCodes_hub||||||||R|N|en|Consumer Units Product Type|Describes the hierarchical level of the trade item.|LoopGroupRo |Text|2400|Left|100|Left||||Active||NULL|
+mclCorpAccountNumber|N|||text||3|3||||||||||E|N|en|Corp Account #|Numeric Customer Account Number.  Example: 999|Horizontal|Text|1200|Left|200|Left||||Active||MANDATORY_BEFORE|
 mclGeneralInfoBanner|N||||||||||||||||E|N|en|General Information|General Information|Banner|Label|100|Left|200|Left||||Active||NULL|
-mclShortDescription/mclProductTypeOfShortDescription|N|mclShortDescription|100|text||2|1|N|ProductTypeCodes_hub||||||||R|N|en|Product Type|Describes the hierarchical level of the trade item.|LoopGroupRo |Text|200|Left|100|Left||||Active||NULL|
+mclItemType|N|||text||10|1||mcl_ItemTypes||||||||E|N|en|Item Type|Grocery or GMP.  Example: Grocery|Horizontal|Dropdown|1800|Left|200|Left||||Active||MANDATORY_BEFORE|
+mclOrderSellingInfoBanner|N||||||||||||||||E|N|en|Order & Selling Information|Order & Selling Information|Banner|Label|1300|Left|200|Left||||Active||NULL|
+mclPack|N|||integer||4|1||||||||||R|N|en|Pack|number of retails in an inner.  Example: 12|Horizontal|Integer|2200|Left|200|Left||||Active||NULL|
+mclPackagingInformationBanner|N||||||||||||||||R|N|en|Packaging Information|Packaging Information|Banner|Label|2100|Left|200|Left||||Active||NULL|
+mclPromoCode|N|||boolean|||||||||||||E|N|en|Promo Code|Promo indicator for Cigs.  Example: check mark|Horizontal|Boolean|1700|Left|200|Left||||Active||NULL|
+mclRebateCode|N|||text||36|1||mcl_RebateCodes||||||||E|N|en|Rebate Code|Code for items we receive rebates for.  Example: Dr. Pepper 5 gal|Horizontal|Dropdown|1600|Left|200|Left||||Active||NULL|
+mclRepack|N|||integer||5|1||||||||||R|N|en|Repack|Number of inner's in a case.  Example: 8|Horizontal|Integer|2300|Left|200|Left||||Active||NULL|
+mclRetailerInfoBanner|N||||||||||||||||E|N|en|Retailer Information|Retailer Information|Banner|Label|600|Left|200|Left||||Active||NULL|
+mclSellbyDays|N|||integer||3|1||||||||||E|N|en|Sell By Days|Number of days to sell by. Example: 30|Horizontal|Integer|2000|Left|200|Left||||Active||NULL|
+mclSellType|N|||text||15|1||mcl_SellTypes||||||||E|N|en|Sell Type|Sell type to customers.  Example: Full Case|Horizontal|Dropdown|1500|Left|200|Left||||Active||MANDATORY_BEFORE|
 mclShortDescription/mclGtinOfShortDescription|N|mclShortDescription|100|text||14|1|N|||||||||R|N|en|GTIN|The Global Trade Item Number is the standard 14-digit number used to identify all trade items in 1SYNC Item Management. For a more detailed definition, refer to the introductory section of this document.|LoopGroupRo |Text|300|Left|20|Left|20|||Active||NULL|
+mclShortDescription/mclProductTypeOfShortDescription|N|mclShortDescription|100|text||2|1|N|ProductTypeCodes_hub||||||||R|N|en|Product Type|Describes the hierarchical level of the trade item.|LoopGroupRo |Text|200|Left|100|Left||||Active||NULL|
 mclShortDescription/mclShortDescription|N|mclShortDescription|100|text||25|1||||||||||E|N|en|Short Description|Free form field that will be sent to mainframe. Mandatory for new items.  Example: MARL BX|LoopGroupRo |Text|400|Left|200|Left|40|||Active||NULL|
 mclSize|N|||text||8|1||||||||||R|N|en|Size|Size of retail product. Example: KING|Horizontal|Text|500|Left|200|Left||||Active||NULL|
-mclRetailerInfoBanner|N||||||||||||||||E|N|en|Retailer Information|Retailer Information|Banner|Label|600|Left|200|Left||||Active||NULL|
-mclBuyerNumber|N|||text||2|1||||||||||E|N|en|Buyer #|Numeric Field.  Example: 45|Horizontal|Text|700|Left|200|Left||||Active||MANDATORY_BEFORE|
-mclUINDept|N|||text||5|5||||||||||E|N|en|UIN Dept|McLane UIN Dept..  Example: 20606|Horizontal|Text|800|Left|200|Left||||Active||MANDATORY_BEFORE|
+mclSubset|N|||text||40|1||mcl_Subsets||||||||E|N|en|Subset|Subset.  Example: 002FIREWOOD|Horizontal|Dropdown|1900|Left|200|Left||||Active||MANDATORY_BEFORE|
 mclUINCategory|N|||text||7|7||||||||||E|N|en|UIN Category|Nacs Categories.  Example: 1500050|Horizontal|Text|900|Left|200|Left||||Active||MANDATORY_BEFORE|
+mclUINDept|N|||text||5|5||||||||||E|N|en|UIN Dept|McLane UIN Dept..  Example: 20606|Horizontal|Text|800|Left|200|Left||||Active||MANDATORY_BEFORE|
 mclVendorBanner|N||||||||||||||||E|N|en|Vendor Information|Vendor Information|Banner|Label|1000|Left|200|Left||||Active||NULL|
 mclVendorNumber|N|||text||5|5||||||||||E|N|en|Vendor #|Numeric Field..  Example: 29247|Horizontal|Text|1100|Left|200|Left||||Active||MANDATORY_BEFORE|
-mclCorpAccountNumber|N|||text||3|3||||||||||E|N|en|Corp Account #|Numeric Customer Account Number.  Example: 999|Horizontal|Text|1200|Left|200|Left||||Active||MANDATORY_BEFORE|
-mclOrderSellingInfoBanner|N||||||||||||||||E|N|en|Order & Selling Information|Order & Selling Information|Banner|Label|1300|Left|200|Left||||Active||NULL|
-mclBogusFlag|N|||boolean|||||||||||||R|N|en|Bogus Flag|No retail UPC, Bulk item.  Example: check mark|Horizontal|Boolean|1400|Left|200|Left||||Active||NULL|
-mclSellType|N|||text||15|1||mcl_SellTypes||||||||E|N|en|Sell Type|Sell type to customers.  Example: Full Case|Horizontal|Dropdown|1500|Left|200|Left||||Active||MANDATORY_BEFORE|
-mclRebateCode|N|||text||36|1||mcl_RebateCodes||||||||E|N|en|Rebate Code|Code for items we receive rebates for.  Example: Dr. Pepper 5 gal|Horizontal|Dropdown|1600|Left|200|Left||||Active||NULL|
-mclPromoCode|N|||boolean|||||||||||||E|N|en|Promo Code|Promo indicator for Cigs.  Example: check mark|Horizontal|Boolean|1700|Left|200|Left||||Active||NULL|
-mclItemType|N|||text||10|1||mcl_ItemTypes||||||||E|N|en|Item Type|Grocery or GMP.  Example: Grocery|Horizontal|Dropdown|1800|Left|200|Left||||Active||MANDATORY_BEFORE|
-mclSubset|N|||text||40|1||mcl_Subsets||||||||E|N|en|Subset|Subset.  Example: 002FIREWOOD|Horizontal|Dropdown|1900|Left|200|Left||||Active||MANDATORY_BEFORE|
-mclSellbyDays|N|||integer||3|1||||||||||E|N|en|Sell By Days|Number of days to sell by. Example: 30|Horizontal|Integer|2000|Left|200|Left||||Active||NULL|
-mclPackagingInformationBanner|N||||||||||||||||R|N|en|Packaging Information|Packaging Information|Banner|Label|2100|Left|200|Left||||Active||NULL|
-mclPack|N|||integer||4|1||||||||||R|N|en|Pack|number of retails in an inner.  Example: 12|Horizontal|Integer|2200|Left|200|Left||||Active||NULL|
-mclRepack|N|||integer||5|1||||||||||R|N|en|Repack|Number of inner's in a case.  Example: 8|Horizontal|Integer|2300|Left|200|Left||||Active||NULL|
-mclConsumerUnits/mclProductTypeOfConsumerUnits|N|mclConsumerUnits|100|text||2|1|N|ProductTypeCodes_hub||||||||R|N|en|Consumer Units Product Type|Describes the hierarchical level of the trade item.|LoopGroupRo |Text|2400|Left|100|Left||||Active||NULL|
-mclConsumerUnits/mclGtinOfConsumerUnits|N|mclConsumerUnits|100|text||14|1|N|||||||||R|N|en|Consumer Units GTIN|The Global Trade Item Number is the standard 14-digit number used to identify all trade items in 1SYNC Item Management. For a more detailed definition, refer to the introductory section of this document.|LoopGroupRo |Text|2500|Left|20|Left|20|||Active||NULL|
-mclConsumerUnits/mclConsumerUnits|N|mclConsumerUnits|100|integer||6|1||||||||||R|N|en|Consumer Units|Number of consumer units in case. Example: 12|LoopGroupRo |Integer|2600|Left|100|Left||||Active||NULL|

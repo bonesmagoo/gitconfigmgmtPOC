@@ -1,37 +1,37 @@
 ﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
-swIsNational|N|||boolean|||||||||||||E|N|en|Is National?|Indicates if the item is to be routed to the National Merchandising Team|Horizontal|Boolean|25|Left|200|Left||||Active||NULL|
-swGroup|N||1|text||2|1||SWGroupVV||||||||E|N|en|Group|Group Code is a 2 digit code indicating the high level group the item belongs to.|Horizontal|Dropdown|30|Left|200|Left||||Active||MANDATORY_BEFORE|
-swCategory|N|||text||2|1||||||||||E|N|en|Category|Category Code is a 2 digit code indicating the category the item belongs to within the high level group.|Horizontal|Text|35|Left|200|Left||||Active||MANDATORY_BEFORE|
-swClass|N|||text||2|1||||||||||E|N|en|Class|Class Code is a 2 digit code indicates the class the item belongs to within the category.|Horizontal|Text|40|Left|200|Left||||Active||MANDATORY_BEFORE|
-swSubClass|N|||text||2|1||||||||||E|N|en|Sub Class|Sub-Class Code is a 2 digit code indicates the sub-class the item belongs to within the class.|Horizontal|Text|45|Left|200|Left||||Active||MANDATORY_BEFORE|
-swSubSubClass|N|||text||2|1||||||||||E|N|en|Sub Sub Class|Sub-Sub-Class Code is a 2 digit code indicates the sub-sub-class the item belongs to within the sub-class.|Horizontal|Text|50|Left|200|Left||||Active||MANDATORY_BEFORE|
-swVendorName|N|||text||40|1||||||||||E|N|en|Vendor Name|Vendor Name|Horizontal|Text|100|Left|200|Left||||Active||MANDATORY_BEFORE|
-swVendorNumber|N|||text||6|6||||||||||E|N|en|Vendor Number|6-digit vendor number. Add leading zeros if needed.|Horizontal|Text|200|Left|200|Left||||Active||MANDATORY_BEFORE|
-swVendorContact|N|||text||40|1||||||||||E|N|en|Vendor Contact|Vendor Contact|Horizontal|Text|300|Left|200|Left||||Active||MANDATORY_BEFORE|
-swVendorContactPhoneNumber|N|||text||20|1||||||||||E|N|en|Vendor Contact Phone Number|Vendor Contact Phone Number|Horizontal|Text|400|Left|200|Left||||Active||MANDATORY_BEFORE|
-swVendorEmail|N|||text||256|1||||||||||E|N|en|Vendor Email|Enter the email address of the main account representative. This address will receive email notifications when the item has been submitted, accepted or declined and when a CIC has been assigned.|Horizontal|Text|500|Left|200|Left||||Active||MANDATORY_BEFORE|
-swVendorContactExtension|N|||text||20|1||||||||||E|N|en|Vendor Contact Extension|Vendor Contact Extension|Horizontal|Text|600|Left|200|Left||||Active||NULL|
-swSecondaryInternalContact|N|||text||40|1||||||||||E|N|en|Secondary Internal Contact (Albertsons)|Secondary Internal Contact (Albertsons)|Horizontal|Text|700|Left|200|Left||||Active||NULL|
-swVendorAddress|N|||text||256|1||||||||||E|N|en|Vendor Address|Vendor Address|Horizontal|Text|800|Left|200|Left||||Active||NULL|
-swSecondaryVendorContact|N|||text||40|1||||||||||E|N|en|Secondary Vendor Contact|Secondary Vendor Contact|Horizontal|Text|900|Left|200|Left||||Active||NULL|
-swSecondaryVendorContactPhoneNumber|N|||text||20|1||||||||||E|N|en|Secondary Vendor Contact Phone Number|Secondary Vendor Contact Phone Number|Horizontal|Text|1000|Left|200|Left||||Active||NULL|
-swSecondaryVendorContactEmail|N|||text||256|1||||||||||E|N|en|Secondary Vendor Contact Email|Secondary Vendor Contact Email|Horizontal|Text|1100|Left|200|Left||||Active||NULL|
 swBrokerContact|N|||text||40|1||||||||||E|N|en|Broker Contact|Broker Contact|Horizontal|Text|1200|Left|200|Left||||Active||NULL|
 swBrokerContactPhoneNumber|N|||text||20|1||||||||||E|N|en|Broker Contact Phone Number|Broker Contact Phone Number|Horizontal|Text|1300|Left|200|Left||||Active||NULL|
 swBrokerEmail|N|||text||256|1||||||||||E|N|en|Broker E-Mail|Broker E-Mail|Horizontal|Text|1400|Left|200|Left||||Active||NULL|
-swReasonForSubmission|N|||text||70|1||SWReasonforSubmissionVV||||||||E|N|en|Reason for Submission|Reason for Submission|Horizontal|Dropdown|1500|Left|200|Left||||Active||MANDATORY_BEFORE|
-swIsItemWavPullPlug|N|||boolean|||||||||||||E|N|en|Is Item Being Submitted for a Wave or New Item Cut In?|Contact Merchandising if unsure.|Horizontal|Boolean|1600|Left|200|Left||||Active||MANDATORY_BEFORE|
-swWaveOrResetCycle|N|||text||70|1||SWWavePnPVV||||||||E|N|en|Wave or New Item Cut In Cycle|Contact Merchandising if unsure.|Horizontal|Dropdown|1700|Left|200|Left||||Active||NULL|
-swNewItemType|N|||text||70|1||SWNewItemTypeVV||||||||E|N|en|New Item Type|The specific type of new item being submitted.|Horizontal|Dropdown|1800|Left|200|Left||||Active||MANDATORY_BEFORE|
+swCategory|N|||text||2|1||||||||||E|N|en|Category|Category Code is a 2 digit code indicating the category the item belongs to within the high level group.|Horizontal|Text|35|Left|200|Left||||Active||MANDATORY_BEFORE|
+swClass|N|||text||2|1||||||||||E|N|en|Class|Class Code is a 2 digit code indicates the class the item belongs to within the category.|Horizontal|Text|40|Left|200|Left||||Active||MANDATORY_BEFORE|
+swDateOfPresentationToCD|N|||datetime|||||||||||||E|N|en|Date of Presentation to Merchandising|Enter the date the new item is presented to Merchandising. This date must not be more than 2 years prior or 2 years beyond the date the PI item is submitted.|Horizontal|Datetime|2900|Left|200|Left||||Active||NULL|
+swGroup|N||1|text||2|1||SWGroupVV||||||||E|N|en|Group|Group Code is a 2 digit code indicating the high level group the item belongs to.|Horizontal|Dropdown|30|Left|200|Left||||Active||MANDATORY_BEFORE|
 swIsItemOneTimeBuy|N|||boolean|||||||||||||E|N|en|Is this item a One Time Buy?|Items available for a limited time. Typically the item is only ordered once. (e.g. cereal with packaging promoting an upcoming movie release)|Horizontal|Boolean|1900|Left|200|Left||||Active||MANDATORY_BEFORE|
-swItemUsageType|N|||text||70|1||SWItemUsageTypeVV||||||||E|N|en|Item Usage Type|How the item will be used at retail.|Horizontal|Dropdown|2000|Left|200|Left||||Active||MANDATORY_BEFORE|
+swIsItemWavPullPlug|N|||boolean|||||||||||||E|N|en|Is Item Being Submitted for a Wave or New Item Cut In?|Contact Merchandising if unsure.|Horizontal|Boolean|1600|Left|200|Left||||Active||MANDATORY_BEFORE|
 swIsManufacturedForSeasonalEvents|N|||boolean|||||||||||||E|N|en|Is this item manufactured for Seasonal events only?|If the item will be in stock for a single, specific season.|Horizontal|Boolean|2100|Left|200|Left||||Active||MANDATORY_BEFORE|
-swSeasonName|N|||text||70|1||SWSeasonVV||||||||E|N|en|Season Name|Season Name|Horizontal|Dropdown|2200|Left|200|Left||||Active||NULL|
+swIsNational|N|||boolean|||||||||||||E|N|en|Is National?|Indicates if the item is to be routed to the National Merchandising Team|Horizontal|Boolean|25|Left|200|Left||||Active||NULL|
 swIsThisItemWERCSEligible|N|||boolean|||||||||||||R|N|en|Is this item WERCs eligible?|Does this item meet any of the following criteria: (1) Contains chemicals or pesticides, (2) Is packaged in an aerosol can, (3) Classified as an OTC Drug or Nutritional Supplement, (4) Is or contains a battery or light bulb, (5) Contains alcohol 24% by volume or greater, (6) Is any other products that may be considered Hazardous Waste upon disposal due to corrosivity, ignitability, reactivity, or toxicity, or (7) Any product that contains a circuit board.|Horizontal|Boolean|2300|Left|200|Left||||Active||NULL|
+swItemUsageType|N|||text||70|1||SWItemUsageTypeVV||||||||E|N|en|Item Usage Type|How the item will be used at retail.|Horizontal|Dropdown|2000|Left|200|Left||||Active||MANDATORY_BEFORE|
+swNameOfVPApprovingWERCSOverride|N|||text||70|1||||||||||E|N|en|Who approved the WERCS override?|Who approved the WERCS override?|Horizontal|Text|2800|Left|200|Left||||Active||NULL|
+swNewItemType|N|||text||70|1||SWNewItemTypeVV||||||||E|N|en|New Item Type|The specific type of new item being submitted.|Horizontal|Dropdown|1800|Left|200|Left||||Active||MANDATORY_BEFORE|
+swReasonForSubmission|N|||text||70|1||SWReasonforSubmissionVV||||||||E|N|en|Reason for Submission|Reason for Submission|Horizontal|Dropdown|1500|Left|200|Left||||Active||MANDATORY_BEFORE|
+swRequestToOverrideWERCSValidation|N|||boolean|||||||||||||E|N|en|Is WERCS validation override approved?|Is WERCS validation override approved?|Horizontal|Boolean|2700|Left|200|Left||||Active||MANDATORY_BEFORE|
+swSeasonName|N|||text||70|1||SWSeasonVV||||||||E|N|en|Season Name|Season Name|Horizontal|Dropdown|2200|Left|200|Left||||Active||NULL|
+swSecondaryInternalContact|N|||text||40|1||||||||||E|N|en|Secondary Internal Contact (Albertsons)|Secondary Internal Contact (Albertsons)|Horizontal|Text|700|Left|200|Left||||Active||NULL|
+swSecondaryVendorContact|N|||text||40|1||||||||||E|N|en|Secondary Vendor Contact|Secondary Vendor Contact|Horizontal|Text|900|Left|200|Left||||Active||NULL|
+swSecondaryVendorContactEmail|N|||text||256|1||||||||||E|N|en|Secondary Vendor Contact Email|Secondary Vendor Contact Email|Horizontal|Text|1100|Left|200|Left||||Active||NULL|
+swSecondaryVendorContactPhoneNumber|N|||text||20|1||||||||||E|N|en|Secondary Vendor Contact Phone Number|Secondary Vendor Contact Phone Number|Horizontal|Text|1000|Left|200|Left||||Active||NULL|
+swSubClass|N|||text||2|1||||||||||E|N|en|Sub Class|Sub-Class Code is a 2 digit code indicates the sub-class the item belongs to within the class.|Horizontal|Text|45|Left|200|Left||||Active||MANDATORY_BEFORE|
+swSubSubClass|N|||text||2|1||||||||||E|N|en|Sub Sub Class|Sub-Sub-Class Code is a 2 digit code indicates the sub-sub-class the item belongs to within the sub-class.|Horizontal|Text|50|Left|200|Left||||Active||MANDATORY_BEFORE|
+swVendorAddress|N|||text||256|1||||||||||E|N|en|Vendor Address|Vendor Address|Horizontal|Text|800|Left|200|Left||||Active||NULL|
+swVendorContact|N|||text||40|1||||||||||E|N|en|Vendor Contact|Vendor Contact|Horizontal|Text|300|Left|200|Left||||Active||MANDATORY_BEFORE|
+swVendorContactExtension|N|||text||20|1||||||||||E|N|en|Vendor Contact Extension|Vendor Contact Extension|Horizontal|Text|600|Left|200|Left||||Active||NULL|
+swVendorContactPhoneNumber|N|||text||20|1||||||||||E|N|en|Vendor Contact Phone Number|Vendor Contact Phone Number|Horizontal|Text|400|Left|200|Left||||Active||MANDATORY_BEFORE|
+swVendorEmail|N|||text||256|1||||||||||E|N|en|Vendor Email|Enter the email address of the main account representative. This address will receive email notifications when the item has been submitted, accepted or declined and when a CIC has been assigned.|Horizontal|Text|500|Left|200|Left||||Active||MANDATORY_BEFORE|
+swVendorName|N|||text||40|1||||||||||E|N|en|Vendor Name|Vendor Name|Horizontal|Text|100|Left|200|Left||||Active||MANDATORY_BEFORE|
+swVendorNumber|N|||text||6|6||||||||||E|N|en|Vendor Number|6-digit vendor number. Add leading zeros if needed.|Horizontal|Text|200|Left|200|Left||||Active||MANDATORY_BEFORE|
+swWaveOrResetCycle|N|||text||70|1||SWWavePnPVV||||||||E|N|en|Wave or New Item Cut In Cycle|Contact Merchandising if unsure.|Horizontal|Dropdown|1700|Left|200|Left||||Active||NULL|
+swWERCSEligibility|N|||boolean|||||||||||||R|N|en|WERCs Eligibility|Merchandising Confirmation of Supplier WERCS response|Horizontal|Boolean|2600|Left|200|Left||||Active||NULL|
 swWERCSRegistration|N|||boolean|||||||||||||R|N|en|WERCS Registration|Item is registered with WERCs.|Horizontal|Boolean|2400|Left|200|Left||||Active||NULL|
 swWERCSReleaseToSafewayApproval|N|||boolean|||||||||||||R|N|en|WERCS Released to Albertsons?|Vendor has authorized WERCS to release the analysis of the item to Albertsons.|Horizontal|Boolean|2500|Left|200|Left||||Active||NULL|
-swWERCSEligibility|N|||boolean|||||||||||||R|N|en|WERCs Eligibility|Merchandising Confirmation of Supplier WERCS response|Horizontal|Boolean|2600|Left|200|Left||||Active||NULL|
-swRequestToOverrideWERCSValidation|N|||boolean|||||||||||||E|N|en|Is WERCS validation override approved?|Is WERCS validation override approved?|Horizontal|Boolean|2700|Left|200|Left||||Active||MANDATORY_BEFORE|
-swNameOfVPApprovingWERCSOverride|N|||text||70|1||||||||||E|N|en|Who approved the WERCS override?|Who approved the WERCS override?|Horizontal|Text|2800|Left|200|Left||||Active||NULL|
-swDateOfPresentationToCD|N|||datetime|||||||||||||E|N|en|Date of Presentation to Merchandising|Enter the date the new item is presented to Merchandising. This date must not be more than 2 years prior or 2 years beyond the date the PI item is submitted.|Horizontal|Datetime|2900|Left|200|Left||||Active||NULL|
 swWhoToNotify|Y||10|text||2|1||SWWhoToNotifyVV||||||||E|N|en|Who To Notify?|Indicate which Sales Management Team(s) should be notified of this item submission|Horizontal|Multi_Select_List|3000|Left|200|Left||||Active||NULL|

@@ -1,4 +1,4 @@
 ﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
 metSupplierContact|N|||text||40|1||||||||||E|N|en|Supplier Contact|Supplier Contact|Horizontal|Text|100|Left|200|Left||||Active||NULL|
-metSupplierContactPhoneNumber|N|||text||20|1||||||||||E|N|en|Supplier Contact Phone Number|Supplier Contact Phone Number|Horizontal|Text|200|Left|200|Left||||Active||NULL|
 metSupplierContactEmail|N|||text||400|1||||||||||E|N|en|Supplier Email|Enter the email address of the main account representative.|Horizontal|Text|300|Left|200|Left||||Active||NULL|
+metSupplierContactPhoneNumber|N|||text||20|1||||||||||E|N|en|Supplier Contact Phone Number|Supplier Contact Phone Number|Horizontal|Text|200|Left|200|Left||||Active||NULL|

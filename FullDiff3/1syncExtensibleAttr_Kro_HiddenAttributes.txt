@@ -1,9 +1,9 @@
 ﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
 cancelDate|N|||dateTime|||||||||||||E|N|en|Cancel Date|Communicates cancellation of the launch of a trade item that was never and will never be manufactured, but may have been presented to buyers. Allows the reuse of the GTIN 12 months after cancellation.|Horizontal|Date|100|Left|200|Left||||Active||NULL|
-kroFamilyTreeSubClass|N|||text||5|1|N|||||||||E|N|en|Kroger Family Tree Sub-Class|Kroger Family Tree Sub-class that the product belongs to..|Horizontal|Text|200|Left|200|Left||||Active||NULL|
-kroFamilyTreePrimaryDepartment|N|||text||2|1|N|||||||||E|N|en|Kroger Family Tree Primary Department|(Hidden) Kroger Family Tree Primary Department that the product belongs to.|Horizontal|Text|300|Left|200|Left||||Active||NULL|
 itemIdentifier|N|||text||80|1|N|||||||||R|N|en|GTIN/Item Identifier|Identifier to be used in 1SYNC Product Introduction when an product does not have a GTIN.|Horizontal|Text|400|Left|200|Left||||Active||NULL|
+kroClassDerivedMode|N|||text||10|1|N|||||||||E|N|en|Class Last Derived Mode|(Hidden)|Horizontal|Text|800|Left|200|Left||||Active||NULL|
+kroFamilyTreePrimaryDepartment|N|||text||2|1|N|||||||||E|N|en|Kroger Family Tree Primary Department|(Hidden) Kroger Family Tree Primary Department that the product belongs to.|Horizontal|Text|300|Left|200|Left||||Active||NULL|
+kroFamilyTreeSubClass|N|||text||5|1|N|||||||||E|N|en|Kroger Family Tree Sub-Class|Kroger Family Tree Sub-class that the product belongs to..|Horizontal|Text|200|Left|200|Left||||Active||NULL|
+kroSubCommDerivedMode|N|||text||10|1|N|||||||||E|N|en|Subcommodity Last Derived Mode|(Hidden)|Horizontal|Text|700|Left|200|Left||||Active||NULL|
 kroWasSubclassDefaulted|N|||boolean|||||||||||||R|N|en|Was Subclass Defaulted?|(Hidden) was the subclass defaulted in the derivation rules?|Horizontal|Boolean|500|Left|200|Left||||Active||NULL|
 targetMarket|N|||text||2|1|N|StandardCountryCodes||||||||R|N|en|Target Market|The target market indicates the country where the trade item is available for sale. Combination of this field +GTIN+GLN uniquely identifies a trade item. Default is US.|Horizontal|Dropdown|600|Left|200|Left||||Active||NULL|
-kroSubCommDerivedMode|N|||text||10|1|N|||||||||E|N|en|Subcommodity Last Derived Mode|(Hidden)|Horizontal|Text|700|Left|200|Left||||Active||NULL|
-kroClassDerivedMode|N|||text||10|1|N|||||||||E|N|en|Class Last Derived Mode|(Hidden)|Horizontal|Text|800|Left|200|Left||||Active||NULL|

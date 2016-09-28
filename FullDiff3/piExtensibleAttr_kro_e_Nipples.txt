@@ -1,3 +1,3 @@
 ﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
-kroNippleFlowLevel|N|||integer||6|1||||||||||E|N|en|Nipple Flow Level|A numeric indicator of flow speed of the nipple.|Horizontal|Integer|100|Left|200|Left||||Active||NULL|
 healthClaimCode|Y||100|text||80|1|N|HealthClaimCode||||||||E|N|en|Health Claims|Free text field for any health claims according to regulations of the target market.|Horizontal|Multi_Select_List|200|Left|200|Left||||Active||NULL|
+kroNippleFlowLevel|N|||integer||6|1||||||||||E|N|en|Nipple Flow Level|A numeric indicator of flow speed of the nipple.|Horizontal|Integer|100|Left|200|Left||||Active||NULL|
