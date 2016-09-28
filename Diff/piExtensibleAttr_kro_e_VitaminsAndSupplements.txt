@@ -4,5 +4,5 @@ kroActiveIngredient/kroActiveIngredientName|N|kroActiveIngredient|100|text||255|
 kroActiveIngredient/kroActiveIngredientAmount|N|kroActiveIngredient|100|float|15|30|15|N|||uom|text||3|1|MassEnergyVolumeInfoStorageUOM|E|N|en|Active Ingredient Amount & UOM|Quantity of the Active Ingredient in the item. |LoopGroup|Float|300|Left|200|Left||||Active||NULL|PI154_QA14
 nutrientInformation|N||||||||||||||||E|N|en|Nutrient Information Link|Nutrient Information Link|Horizontal|FLEX_POPUP|400|Left|200|Left||||Active||NULL|1.5.2CTX;
 numberOfServingsPerPackage|N|||float|15|15|1||||||||||E|N|en|Number Of Servings Per Package|The total number of servings contained in the package.|Horizontal|Float|500|Left|200|Left||||Active||NULL|276
-foodAndBevDietTypeInfo|N||||||||||||||||E|N|en|Diet Types Link|Diet Types Link|Horizontal|FLEX_POPUP|600|Left|200|Left||||Active||NULL|Link
+foodAndBevDietTypeInfo|N||||||||||||||||E|N|en|Diet Types Link|Diet Types Link|Horizontal|FLEX_POPUP|600|Left|200|Left||||Active||NULL|DeCA phase 2
 dietTypeDescription|Y|||text||70|1|||M|lang|text||5|1|StandardLanguageCodes_hub|E|N|en|Diet Type Description|dietTypeDescription<br>Qualifier: FNB007<br>Free text for indication of diet not stated in the list of diets.|Horizontal|Text|700|Right|200|Left||||Active||NULL|MJR3

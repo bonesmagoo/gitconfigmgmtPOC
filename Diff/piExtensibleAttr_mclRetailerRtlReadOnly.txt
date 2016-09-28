@@ -21,7 +21,7 @@ mclRebateCode|N|||text||36|1||mcl_RebateCodes||||||||R|N|en|Rebate Code|Code for
 mclPromoCode|N|||boolean|||||||||||||R|N|en|Promo Code|Promo indicator for Cigs.  Example: check mark|Horizontal|Boolean|2000|Left|200|Left||||Active||NULL|added to IM 6.5 - McLane
 mclItemType|N|||text||10|1||mcl_ItemTypes||||||||R|N|en|Item Type|Grocery or GMP.  Example: Grocery|Horizontal|Dropdown|2100|Left|200|Left||||Active||NULL|added to IM 6.5 - McLane
 mclSubset|N|||text||40|1||mcl_Subsets||||||||R|N|en|Subset|Subset.  Example: 002FIREWOOD|Horizontal|Dropdown|2200|Left|200|Left||||Active||NULL|added to IM 6.5 - McLane
-mclSellbyDays|N|||integer||3|1||||||||||R|N|en|Sell By Days|Number of days to sell by. Example: 30|Horizontal|Integer|2300|Left|200|Left||||Active||NULL|added pi 1.2 pi print
+mclSellbyDays|N|||integer||3|1||||||||||R|N|en|Sell By Days|Number of days to sell by. Example: 30|Horizontal|Integer|2300|Left|200|Left||||Active||NULL|added to IM 6.5 UAT2 - McLane 
 mclCubiscanInformationBanner|N||||||||||||||||R|N|en|Cubiscan Information|Cubiscan Information|Banner|Label|2400|Left|200|Left||||Active||NULL|added to IM 6.5 - McLane
 mclCubiscanCode|N|||text||38|1||mcl_CubiscanCodes||||||||R|N|en|CUBISCAN CODE|Codes to track if an item has been cubiscaned.  Example: Cubiscaned|Horizontal|Dropdown|2500|Left|200|Left||||Active||NULL|added to IM 6.5 - McLane
 mclCubiscan/mclCubiscanDate|N|mclCubiscan|100|datetime|||||||||||||R|N|en|Cubiscan Date|Date an item was cubiscaned.  Example: 39857|LoopGroupRo |Date|2600|Left|150|Left|150|||Active||NULL|added to IM 6.5 - McLane

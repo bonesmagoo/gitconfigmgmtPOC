@@ -1,2 +1,3 @@
 ﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
 dummyAttribute|N|||boolean|||||||||||||R|N|en|DUMMY ATTRIBUTE FOR CONFIG MANAGEMENT ONLY|This Dummy Attribute will be used in the configuration management tool to be a placeholder for VE attributes.|Horizontal|Boolean|100|Left|0|Left||||Active||NULL|CONFIG MGMT PI1513_02
+dummyAttribute|N|||boolean|||||||||||||E|N|en|DUMMY ATTRIBUTE FOR CONFIG MANAGEMENT ONLY|This Dummy Attribute will be used in the configuration management tool to be a placeholder for VE attributes.|Horizontal|Boolean|100|Left|0|Left||||Active||MANDATORY_BEFORE|CONFIG MGMT PI1513_02

@@ -10,5 +10,5 @@ productSize/descriptiveSize|Y|productSize|100|text||35|1|||M|lang|text||5|1|Stan
 targetConsumerGender|N|||text||60|1|N|TargetConsumerGender||||||||E|N|en|Target Consumer Gender|Identifies the target consumer gender for which a product has been designed.|Horizontal|Dropdown|900|Left|200|Left||||Active||NULL|127
 avp/cleaningMethod|N|||text||70|1|N|||||||||E|N|en|Cleaning Method|cleaningMethod<br>Qualifier: AVP198<br>Indicates the method in which to clean the product.|Horizontal|Text|1000|Left|200|Left||||Active||NULL|AVP
 kroClosureType|Y||10|text||70|1|N|KroEcommClosureTypeVV||||||||E|N|en|Closure Type|The closure mechanism(s) on this garment.|Horizontal|Dropdown|1100|Left|200|Left||||Active||NULL|128
-kroKnitType|Y||10|text||70|1|N|||||||||E|N|en|Knit Type|The type of knit used in the construction of this garment.|Horizontal|Text|1200|Left|200|Left||||Active||NULL|137; PI152_QA09; PI152_QA09
+kroKnitType|Y||10|text||70|1|N|||||||||E|N|en|Knit Type|The type of knit used in the construction of this garment.|Horizontal|Text|1200|Left|200|Left||||Active||NULL|137
 kroStyleDescription|N||1|text||70|1|N|||||||||E|N|en|Style Description|Describes the style of the product.|Horizontal|Text|1300|Left|200|Left||||Active||NULL|148

@@ -5,7 +5,7 @@ mclOrderSellingInfoBanner|N||||||||||||||||R|N|en|Order & Selling Information|Or
 mclDCsetup|Y||100|text||20|1||mcl_DCforSetups||||||||R|N|en|DCs for Setup|What McLane DC's is the item being setup in?.  Example: Southwest|Horizontal|Multi_Select_List|400|Left|200|Left||||Active||NULL|added to IM 6.5 - McLane, PI-471
 mclMethodOfStorage|N|||text||20|1||||||||||R|N|en|Method of Storage|Storage Method.  Example: Frozen|Horizontal|Text|500|Left|200|Left||||Active||NULL|added to IM 6.5 - McLane
 mclChemicalIngredients|N|||boolean|||||||||||||R|N|en|Chemical Ingredients?|Does this item contain cheimcal ingredients?|Horizontal|Boolean|600|Left|200|Left||||Active||NULL|PI15112; PI1512_04
-mclCustomer|N|||text||60|1||||||||||R|N|en|Customer|Customer requiring item setup.  Example: Love's Stores|Horizontal|text|700|Left|200|Left||||Active||NULL|added to IM 6.5 - McLane
+mclCustomer|N|||text||60|1||||||||||R|N|en|Customer|Customer requiring item setup.  Example: Love's Stores|Horizontal|Text|700|Left|200|Left||||Active||NULL|added to IM 6.5 - McLane
 mclCostInfoBanner|N||||||||||||||||R|N|en|Cost Information (Note:  Cost information is Mandatory – populate either  case cost, pallet cost or bracket price .)|Cost Information [Note: Cost information is Mandatory - populate either case cost, pallet cost or bracket price.]|Banner|Label|800|Left|200|Left||||Active||NULL|added to IM 6.5 - McLane, PI-471
 mclCaseCost|N|||float|15|15|4||||||||||R|N|en|Case Cost|Case Cost.  Example: 22|Horizontal|Float|900|Left|200|Left||||Active||NULL|added to IM 6.5 - McLane
 mclPalletCost|N|||float|15|15|4||||||||||R|N|en|Pallet Cost|Pallet Cost|Horizontal|Float|1000|Left|200|Left||||Active||NULL|added to IM 6.5 - McLane

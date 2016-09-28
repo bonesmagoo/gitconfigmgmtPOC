@@ -15,5 +15,5 @@ kroCollarType|N||1|text||70|1|N|KroCollarTypeVV||||||||E|N|en|Collar Type|A code
 kroHemStyle|N||1|text||70|1|N|||||||||E|N|en|Hem Style|The style of hem on this garment.|Horizontal|Text|1400|Left|200|Left||||Active||NULL|132
 kroGarmentLength|N||1|text||70|1|N|||||||||E|N|en|Garment Length|The style of length of this garment e.g. waist, thigh.|Horizontal|Text|1500|Left|200|Left||||Active||NULL|134
 kroSheerness|N||1|text||70|1|N|||||||||E|N|en|Sheerness|The sheerness of this garment e.g. opaque, semi-opaque, translucent, transparent.|Horizontal|Text|1600|Left|200|Left||||Active||NULL|135
-kroKnitType|Y||10|text||70|1|N|||||||||E|N|en|Knit Type|The type of knit used in the construction of this garment.|Horizontal|Text|1700|Left|200|Left||||Active||NULL|137; PI152_QA09; PI152_QA09
+kroKnitType|Y||10|text||70|1|N|||||||||E|N|en|Knit Type|The type of knit used in the construction of this garment.|Horizontal|Text|1700|Left|200|Left||||Active||NULL|137
 kroStyleDescription|N||1|text||70|1|N|||||||||E|N|en|Style Description|Describes the style of the product.|Horizontal|Text|1800|Left|200|Left||||Active||NULL|148

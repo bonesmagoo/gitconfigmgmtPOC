@@ -1,6 +1,6 @@
 ﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
-isAssemblyRequired|N|||boolean|||||||||||||E|N|en|Assembly Required|Indicates that the Items in the package need to be assembled for use.|Horizontal|Boolean|100|Left|200|Left||||Active||NULL|150
 avp/hasSteamSystem|N|||boolean|||||||||||||E|N|en|Has Steam System?|hasSteamSystem<br>Qualifier: AVP400<br>Indicates whether or not the product has a steam system.|Horizontal|Boolean|200|Left|200|Left||||Active||NULL|AVP
+isAssemblyRequired|N|||boolean|||||||||||||E|N|en|Assembly Required|Indicates that the Items in the package need to be assembled for use.|Horizontal|Boolean|100|Left|200|Left||||Active||NULL|150
 kroFrameMaterialContent|N||1|text||70|1|N|||||||||E|N|en|Frame Material|A construction material used in the indicated part of this product.|Horizontal|Text|300|Left|200|Left||||Active||MANDATORY_BEFORE|101
 kroFrameMaterialPercentage|N|||float|5|5|2||||||||||E|N|en|Percentage|A numeric value between 0.00 and 1.00, indicating the percentage of a construction material contributing to a composite, blend, or alloy.|Horizontal|Float|400|Left|200|Left||||Active||NULL|102
 kroSeatTubeLengthCentimeters|N|||integer||10|1||||||||||E|N|en|Seat Tube Length|The length of the seat tube on this bicycle.|Horizontal|Integer|500|Left|200|Left||||Active||NULL|373
