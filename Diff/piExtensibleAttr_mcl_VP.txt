@@ -6,19 +6,19 @@ mclBracketPrice4|N|||float|15|15|4||||||||||E|N|en|Bracket Price 4|Bracket Price
 mclBracketPrice5|N|||float|15|15|4||||||||||R|N|en|Bracket Price 5|Bracket Price.  Example: 10|Horizontal|Float|500|Left|200|Left||||Active||NULL|added to IM 6.5 - McLane
 mclBracketPrice6|N|||float|15|15|4||||||||||E|N|en|Bracket Price 6|Bracket Price.  Example: 10.5|Horizontal|Float|600|Left|200|Left||||Active||NULL|added to IM 6.5 - McLane
 mclCaseCost|N|||float|15|15|4||||||||||E|N|en|Case Cost|Case Cost.  Example: 22|Horizontal|Float|700|Left|200|Left||||Active||NULL|added to IM 6.5 - McLane
+mclChemicalIngredients|N|||boolean|||||||||||||R|N|en|Chemical Ingredients?|Does this item contain cheimcal ingredients?|Horizontal|Boolean|2300|Left|200|Left||||Active||NULL|PI15112; PI1512_04
 mclContactName|N|||text||40|1||||||||||E|N|en|Contact Name|Name of person completing information.  Example: John Smith|Horizontal|Text|800|Left|200|Left||||Active||NULL|added to IM 6.5 - McLane
 mclCustomer|N|||text||60|1||||||||||E|N|en|Customer|Customer requiring item setup.  Example: Love's Stores|Horizontal|Text|900|Left|200|Left||||Active||NULL|added to IM 6.5 - McLane
 mclDCsetup|Y||100|text||20|1||mcl_DCforSetups||||||||E|N|en|DCs for Setup|What McLane DC's is the item being setup in?.  Example: Southwest|Horizontal|Multi_Select_List|1000|Left|200|Left||||Active||NULL|added to IM 6.5 - McLane, PI-471
+mclFoodServiceOrRetail|N|||text||60|1||mcl_FSOrRetailVV||||||||R|N|en|Food Service or Retail?|Select the type of item that this is.|Horizontal|Dropdown|1300|Left|200|Left||||Active||NULL|PI15112; PI1512_04
+mclFSConsumerPackagingIncluded|N|||boolean|||||||||||||R|N|en|Food Service: Consumer Bags/Packaging Included?|Is the consumer packaging included?|Horizontal|Boolean|2100|Left|200|Left||||Active||NULL|PI15112; PI1512_04
+mclFSDailyTurns|N|||text||255|1||||||||||R|N|en|Food Service: Daily Turns (Industry Standard)|Number of servings sold in a day.|Horizontal|Text|1900|Left|200|Left||||Active||NULL|PI15112; PI1512_04
+mclFSDayPart|N|||text||255|1||||||||||R|N|en|Food Service: Day Part|Breakfast, Lunch, Dinner, or Snack|Horizontal|Text|1800|Left|200|Left||||Active||NULL|PI15112; PI1512_04
+mclFSEquipmentToHold|N|||text||255|1||||||||||R|N|en|Food Service: Equipment to Hold|Roller grill, warmer box, deli case, etc.|Horizontal|Text|1600|Left|200|Left||||Active||NULL|PI15112; PI1512_04
+mclFSEquipmentToPrepare|N|||text||255|1||||||||||R|N|en|Food Service: Equipment to Prepare|Roller grill, microwave, turbochef, fryer, etc.|Horizontal|Text|1500|Left|200|Left||||Active||NULL|PI15112; PI1512_04
+mclFSHoldTime|N|||text||255|1||||||||||R|N|en|Food Service: Hold Time|After preparation, how long is the food good|Horizontal|Text|1700|Left|200|Left||||Active||NULL|PI15112; PI1512_04
+mclFSProgram|N|||text||255|1||||||||||R|N|en|Food Service: Program|Pizza, Chicken, Warmer Box/Roller Grill/Expanded FS…etc.|Horizontal|Text|1400|Left|200|Left||||Active||NULL|PI15112; PI1512_04
+mclFSRecommendedServingsPerCase|N|||text||255|1||||||||||R|N|en|Food Service: Recommended Servings Per case|Number of recommended servings per case.|Horizontal|Text|2200|Left|200|Left||||Active||NULL|PI15112; PI1512_04
+mclFSSuggestedRetailPrice|N|||float|10|12|2|||M|currency|text||3|1|StandardCurrencyCodes_hub|R|N|en|Food Service: Suggest Retail Price|Suggested Retail Price for this Food Service Product|Horizontal|Float|2000|Left|200|Left|20|||Active||NULL|PI15112; PI1512_04
 mclMethodOfStorage|N|||text||20|1||||||||||E|N|en|Method of Storage|Storage Method.  Example: Frozen|Horizontal|Text|1100|Left|200|Left||||Active||NULL|added to IM 6.5 - McLane
 mclPalletCost|N|||float|15|15|4||||||||||E|N|en|Pallet Cost|Pallet Cost|Horizontal|Float|1200|Left|200|Left||||Active||NULL|added to IM 6.5 - McLane
-mclFoodServiceOrRetail|N|||text||60|1||mcl_FSOrRetailVV||||||||R|N|en|Food Service or Retail?|Select the type of item that this is.|Horizontal|Dropdown|1300|Left|200|Left||||Active||NULL|PI15112; PI1512_04
-mclFSProgram|N|||text||255|1||||||||||R|N|en|Food Service: Program|Pizza, Chicken, Warmer Box/Roller Grill/Expanded FS…etc.|Horizontal|Text|1400|Left|200|Left||||Active||NULL|PI15112; PI1512_04
-mclFSEquipmentToPrepare|N|||text||255|1||||||||||R|N|en|Food Service: Equipment to Prepare|Roller grill, microwave, turbochef, fryer, etc.|Horizontal|Text|1500|Left|200|Left||||Active||NULL|PI15112; PI1512_04
-mclFSEquipmentToHold|N|||text||255|1||||||||||R|N|en|Food Service: Equipment to Hold|Roller grill, warmer box, deli case, etc.|Horizontal|Text|1600|Left|200|Left||||Active||NULL|PI15112; PI1512_04
-mclFSHoldTime|N|||text||255|1||||||||||R|N|en|Food Service: Hold Time|After preparation, how long is the food good|Horizontal|Text|1700|Left|200|Left||||Active||NULL|PI15112; PI1512_04
-mclFSDayPart|N|||text||255|1||||||||||R|N|en|Food Service: Day Part|Breakfast, Lunch, Dinner, or Snack|Horizontal|Text|1800|Left|200|Left||||Active||NULL|PI15112; PI1512_04
-mclFSDailyTurns|N|||text||255|1||||||||||R|N|en|Food Service: Daily Turns (Industry Standard)|Number of servings sold in a day.|Horizontal|Text|1900|Left|200|Left||||Active||NULL|PI15112; PI1512_04
-mclFSSuggestedRetailPrice|N|||float|10|12|2|||M|currency|text||3|1|StandardCurrencyCodes_hub|R|N|en|Food Service: Suggest Retail Price|Suggested Retail Price for this Food Service Product|Horizontal|Float|2000|Left|200|Left|20|||Active||NULL|PI15112; PI1512_04
-mclFSConsumerPackagingIncluded|N|||boolean|||||||||||||R|N|en|Food Service: Consumer Bags/Packaging Included?|Is the consumer packaging included?|Horizontal|Boolean|2100|Left|200|Left||||Active||NULL|PI15112; PI1512_04
-mclFSRecommendedServingsPerCase|N|||text||255|1||||||||||R|N|en|Food Service: Recommended Servings Per case|Number of recommended servings per case.|Horizontal|Text|2200|Left|200|Left||||Active||NULL|PI15112; PI1512_04
-mclChemicalIngredients|N|||boolean|||||||||||||R|N|en|Chemical Ingredients?|Does this item contain cheimcal ingredients?|Horizontal|Boolean|2300|Left|200|Left||||Active||NULL|PI15112; PI1512_04

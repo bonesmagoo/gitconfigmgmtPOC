@@ -1,3 +1,3 @@
 ﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
-targetConsumerAge|Y|||text||70|1|||M|lang|text||5|1|StandardLanguageCodes_hub|E|N|en|Target Consumer Age|Identifies the target consumer age range for which a trade item has been designed.|Horizontal|Text|100|Left|200|Left||||Active||NULL|138; PI52_QA19
 isAssemblyRequired|N|||boolean|||||||||||||E|N|en|Assembly Required|Indicates that the Items in the package need to be assembled for use.|Horizontal|Boolean|200|Left|200|Left||||Active||NULL|150
+targetConsumerAge|Y|||text||70|1|||M|lang|text||5|1|StandardLanguageCodes_hub|E|N|en|Target Consumer Age|Identifies the target consumer age range for which a trade item has been designed.|Horizontal|Text|100|Left|200|Left||||Active||NULL|138; PI52_QA19

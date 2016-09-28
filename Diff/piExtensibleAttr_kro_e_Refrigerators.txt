@@ -1,7 +1,7 @@
 ﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
-tradeItemFinishDescription|Y|||text||70|1|||M|lang|text||5|1|StandardLanguageCodes_hub|E|N|en|Finish Description|Attribute which defines the outer surface/appearance of the product.|Horizontal|Text|100|Left|200|Left||||Active||NULL|120; PI52_QA19
-kroStyleDescription|N||1|text||70|1|N|||||||||E|N|en|Style Description|Describes the style of the product.|Horizontal|Text|200|Left|200|Left||||Active||NULL|148
+avp/isEnergyStarCompliant|N|||boolean|||||||||||||E|N|en|Is Energy Star Compliant?|isEnergyStarCompliant<br>Qualifier: AVP451<br>Indicates whether or not the product is Energy Star certified.|Horizontal|Boolean|600|Left|200|Left||||Active||NULL|AVP
+kroApplianceCapability|Y||100|text||70|1|N|||||||||E|N|en|Appliance Capabilities|Indicates a distinct use to which this product can be applied.|Horizontal|Text|500|Left|200|Left||||Active||NULL|316
 kroFreezerCapacity|N||1|float|15|30|15|N|||uom|text||30|1|kroUsableProductVolumeUOM|E|N|en|Freezer Capacity|Indicates the volumetric capacity of the refrigerator|Horizontal|Float|300|Left|200|Left||||Active||NULL|332
 kroRefrigeratorCapacity|N||1|float|15|30|15|N|||uom|text||30|1|kroUsableProductVolumeUOM|E|N|en|Refrigerator Capacity|Indicates the volumetric capacity of the freezer.|Horizontal|Float|400|Left|200|Left||||Active||NULL|334
-kroApplianceCapability|Y||100|text||70|1|N|||||||||E|N|en|Appliance Capabilities|Indicates a distinct use to which this product can be applied.|Horizontal|Text|500|Left|200|Left||||Active||NULL|316
-avp/isEnergyStarCompliant|N|||boolean|||||||||||||E|N|en|Is Energy Star Compliant?|isEnergyStarCompliant<br>Qualifier: AVP451<br>Indicates whether or not the product is Energy Star certified.|Horizontal|Boolean|600|Left|200|Left||||Active||NULL|AVP
+kroStyleDescription|N||1|text||70|1|N|||||||||E|N|en|Style Description|Describes the style of the product.|Horizontal|Text|200|Left|200|Left||||Active||NULL|148
+tradeItemFinishDescription|Y|||text||70|1|||M|lang|text||5|1|StandardLanguageCodes_hub|E|N|en|Finish Description|Attribute which defines the outer surface/appearance of the product.|Horizontal|Text|100|Left|200|Left||||Active||NULL|120; PI52_QA19

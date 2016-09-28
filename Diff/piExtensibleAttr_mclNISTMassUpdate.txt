@@ -1,22 +1,22 @@
 ﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
-mclGeneralInfoBanner|N||||||||||||||||E|N|en|General Information|General Information|Banner|Label|100|Left|200|Left||||Active||NULL|added to IM 6.5 - McLane
-mclSize|N|||text||8|1||||||||||E|N|en|Size|Size of retail product. Example: KING|Horizontal|Text|200|Left|200|Left||||Active||NULL|added to IM 6.5 - McLane
-mclRetailerInfoBanner|N||||||||||||||||E|N|en|Retailer Information|Retailer Information|Banner|Label|300|Left|200|Left||||Active||NULL|added to IM 6.5 - McLane
+mclBogusFlag|N|||boolean|||||||||||||E|N|en|Bogus Flag|No retail UPC, Bulk item.  Example: check mark|Horizontal|Boolean|1200|Left|200|Left||||Active||NULL|added to IM 6.5 - McLane
 mclBuyerNumber|N|||text||2|1||||||||||E|N|en|Buyer #|Numeric Field.  Example: 45|Horizontal|Text|400|Left|200|Left||||Active||MANDATORY_BEFORE|added to IM 6.5 - McLane; updated prior to mcl load going with PRODINTRO-114
+mclCorpAccountNumber|N|||text||3|3||||||||||E|N|en|Corp Account #|Numeric Customer Account Number.  Example: 999|Horizontal|Text|1000|Left|200|Left||||Active||MANDATORY_BEFORE|added to IM 6.5 - McLane
+mclDCsetup|Y||100|text||20|1||mcl_DCforSetups||||||||E|N|en|DCs for Setup|What McLane DC's is the item being setup in?.  Example: Southwest|Horizontal|Multi_Select_List|1700|Left|200|Left||||Active||MANDATORY_BEFORE|added to IM 6.5 - McLane, PI-471
+mclGeneralInfoBanner|N||||||||||||||||E|N|en|General Information|General Information|Banner|Label|100|Left|200|Left||||Active||NULL|added to IM 6.5 - McLane
+mclItemType|N|||text||10|1||mcl_ItemTypes||||||||E|N|en|Item Type|Grocery or GMP.  Example: Grocery|Horizontal|Dropdown|1800|Left|200|Left||||Active||MANDATORY_BEFORE|added to IM 6.5 - McLane
+mclLogo|N|||boolean|||||||||||||E|N|en|Logo|Private label item.  Example: check mark|Horizontal|Boolean|1500|Left|200|Left||||Active||MANDATORY_BEFORE|added to IM 6.5 - McLane
+mclOrderSellingInfoBanner|N||||||||||||||||E|N|en|Order & Selling Information|Order & Selling Information|Banner|Label|1100|Left|200|Left||||Active||NULL|added to IM 6.5 - McLane
+mclPack|N|||integer||4|1||||||||||E|N|en|Pack|number of retails in an inner.  Example: 12|Horizontal|Integer|2000|Left|200|Left||||Active||MANDATORY_BEFORE|added to IM 6.5 - McLane
+mclRebateCode|N|||text||36|1||mcl_RebateCodes||||||||E|N|en|Rebate Code|Code for items we receive rebates for.  Example: Dr. Pepper 5 gal|Horizontal|Dropdown|1600|Left|200|Left||||Active||NULL|added to IM 6.5 - McLane
+mclRepack|N|||integer||5|1||||||||||E|N|en|Repack|Number of inner's in a case.  Example: 8|Horizontal|Integer|2100|Left|200|Left||||Active||MANDATORY_BEFORE|added to IM 6.5 - McLane
 mclRequester|N|||text||20|1||||||||||E|N|en|Requestor|McLane person requesting the item|Horizontal|Text|500|Left|200|Left||||Active||MANDATORY_BEFORE|added to IM 6.5 - McLane
-mclUINDept|N|||text||5|5||||||||||E|N|en|UIN Dept|McLane UIN Dept..  Example: 20606|Horizontal|Text|600|Left|200|Left||||Active||MANDATORY_BEFORE|added to IM 6.5 - McLane
+mclRetailerInfoBanner|N||||||||||||||||E|N|en|Retailer Information|Retailer Information|Banner|Label|300|Left|200|Left||||Active||NULL|added to IM 6.5 - McLane
+mclSellbyDays|N|||integer||3|1||||||||||E|N|en|Sell By Days|Number of days to sell by. Example: 30|Horizontal|Integer|1900|Left|200|Left||||Active||NULL|added to IM 6.5 UAT2 - McLane 
+mclSellType|N|||text||15|1||mcl_SellTypes||||||||E|N|en|Sell Type|Sell type to customers.  Example: Full Case|Horizontal|Dropdown|1400|Left|200|Left||||Active||MANDATORY_BEFORE|added to IM 6.5 - McLane
+mclSize|N|||text||8|1||||||||||E|N|en|Size|Size of retail product. Example: KING|Horizontal|Text|200|Left|200|Left||||Active||NULL|added to IM 6.5 - McLane
+mclSKUType|N|||text||20|1||mcl_SKUTypes||||||||E|N|en|SKU Type|Type of item.  Example: National|Horizontal|Dropdown|1300|Left|200|Left||||Active||MANDATORY_BEFORE|added to IM 6.5 - McLane
 mclUINCategory|N|||text||7|7||||||||||E|N|en|UIN Category|Nacs Categories.  Example: 1500050|Horizontal|Text|700|Left|200|Left||||Active||MANDATORY_BEFORE|added to IM 6.5 - McLane
+mclUINDept|N|||text||5|5||||||||||E|N|en|UIN Dept|McLane UIN Dept..  Example: 20606|Horizontal|Text|600|Left|200|Left||||Active||MANDATORY_BEFORE|added to IM 6.5 - McLane
 mclVendorBanner|N||||||||||||||||E|N|en|Vendor Information|Vendor Information|Banner|Label|800|Left|200|Left||||Active||NULL|added to IM 6.5 - McLane
 mclVendorNumber|N|||text||5|5||||||||||E|N|en|Vendor #|Numeric Field..  Example: 29247|Horizontal|Text|900|Left|200|Left||||Active||MANDATORY_BEFORE|added to IM 6.5 - McLane
-mclCorpAccountNumber|N|||text||3|3||||||||||E|N|en|Corp Account #|Numeric Customer Account Number.  Example: 999|Horizontal|Text|1000|Left|200|Left||||Active||MANDATORY_BEFORE|added to IM 6.5 - McLane
-mclOrderSellingInfoBanner|N||||||||||||||||E|N|en|Order & Selling Information|Order & Selling Information|Banner|Label|1100|Left|200|Left||||Active||NULL|added to IM 6.5 - McLane
-mclBogusFlag|N|||boolean|||||||||||||E|N|en|Bogus Flag|No retail UPC, Bulk item.  Example: check mark|Horizontal|Boolean|1200|Left|200|Left||||Active||NULL|added to IM 6.5 - McLane
-mclSKUType|N|||text||20|1||mcl_SKUTypes||||||||E|N|en|SKU Type|Type of item.  Example: National|Horizontal|Dropdown|1300|Left|200|Left||||Active||MANDATORY_BEFORE|added to IM 6.5 - McLane
-mclSellType|N|||text||15|1||mcl_SellTypes||||||||E|N|en|Sell Type|Sell type to customers.  Example: Full Case|Horizontal|Dropdown|1400|Left|200|Left||||Active||MANDATORY_BEFORE|added to IM 6.5 - McLane
-mclLogo|N|||boolean|||||||||||||E|N|en|Logo|Private label item.  Example: check mark|Horizontal|Boolean|1500|Left|200|Left||||Active||MANDATORY_BEFORE|added to IM 6.5 - McLane
-mclRebateCode|N|||text||36|1||mcl_RebateCodes||||||||E|N|en|Rebate Code|Code for items we receive rebates for.  Example: Dr. Pepper 5 gal|Horizontal|Dropdown|1600|Left|200|Left||||Active||NULL|added to IM 6.5 - McLane
-mclDCsetup|Y||100|text||20|1||mcl_DCforSetups||||||||E|N|en|DCs for Setup|What McLane DC's is the item being setup in?.  Example: Southwest|Horizontal|Multi_Select_List|1700|Left|200|Left||||Active||MANDATORY_BEFORE|added to IM 6.5 - McLane, PI-471
-mclItemType|N|||text||10|1||mcl_ItemTypes||||||||E|N|en|Item Type|Grocery or GMP.  Example: Grocery|Horizontal|Dropdown|1800|Left|200|Left||||Active||MANDATORY_BEFORE|added to IM 6.5 - McLane
-mclSellbyDays|N|||integer||3|1||||||||||E|N|en|Sell By Days|Number of days to sell by. Example: 30|Horizontal|Integer|1900|Left|200|Left||||Active||NULL|added to IM 6.5 UAT2 - McLane 
-mclPack|N|||integer||4|1||||||||||E|N|en|Pack|number of retails in an inner.  Example: 12|Horizontal|Integer|2000|Left|200|Left||||Active||MANDATORY_BEFORE|added to IM 6.5 - McLane
-mclRepack|N|||integer||5|1||||||||||E|N|en|Repack|Number of inner's in a case.  Example: 8|Horizontal|Integer|2100|Left|200|Left||||Active||MANDATORY_BEFORE|added to IM 6.5 - McLane
