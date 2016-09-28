@@ -1,7 +1,7 @@
 ﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
 avp/displayIndicatorType|Y||5|text||70|1|N|||||||||E|N|en|Display Indicator Type|displayIndicatorType<br>Qualifier: AVP217<br>Identifies the type of on screen indicators the product has.|Horizontal|Text|200|Left|200|Left||||Active||NULL|AVP
-isAssemblyRequired|N|||boolean|||||||||||||E|N|en|Assembly Required|Indicates that the Items in the package need to be assembled for use.|Horizontal|Boolean|100|Left|200|Left||||Active||NULL|150
 kroControls|Y||100|text||70|1|N|||||||||E|N|en|Controls|A description of each type of adjustable controls available on this product.|Horizontal|Text|300|Left|200|Left||||Active||NULL|312
-kroExerciseStations|Y||100|text||70|1|N|||||||||E|N|en|Exercise Stations|Describes the Exercise stations on this piece of equipment.|Horizontal|Text|500|Left|200|Left||||Active||NULL|267
+isAssemblyRequired|N|||boolean|||||||||||||E|N|en|Assembly Required|Indicates that the Items in the package need to be assembled for use.|Horizontal|Boolean|100|Left|200|Left||||Active||NULL|150
 kroMaximumSpeed|N||1|float|15|30|15|N|||uom|text||70|1|KroMaximumSpeedUOMVV|E|N|en|Maximum Speed|The maximum speed at which this product can operate.|Horizontal|Float|400|Left|200|Left||||Active||NULL|313
+kroExerciseStations|Y||100|text||70|1|N|||||||||E|N|en|Exercise Stations|Describes the Exercise stations on this piece of equipment.|Horizontal|Text|500|Left|200|Left||||Active||NULL|267
 kroTargetedMuscleAreas|Y||100|text||70|1|N|||||||||E|N|en|Targeted Muscle Areas|A description of each targeted muscle area.|Horizontal|Text|600|Left|200|Left||||Active||NULL|268; PI152_QA21; PI152_QA22

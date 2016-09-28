@@ -1,11 +1,11 @@
 ﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
-discontinueDate|N|||dateTime|||||||||||||E|N|en|Discontinued Date|Communicates the date on which the product will no longer be manufactured.|Horizontal|Date|60600|Left|200|Left||||Active||NULL|1.5.2CTX;
-firstOrderDate|N|||dateTime|||||||||||||E|N|en|First Order Date|Indicates the earliest date that an order can be placed for the product.|Horizontal|Date|60200|Left|200|Left||||Active||NULL|1.5.2CTX;
-firstShipDate|N|||dateTime|||||||||||||E|N|en|First Ship Date|First date a product can be shipped from the supplier’s facility.|Horizontal|DateTime|60400|Left|200|Left||||Active||NULL|1.5.2CTX;
 kroBanner_Core_Indicators|N||||||||||||||||R|N|en|Indicators|Indicators|Banner|Label|10000|Left|200|Left||||Active||NULL|1.5.2CTX;
 kroBanner_Core_LogisticsInformation|N||||||||||||||||R|N|en|Logistics Information|Logistics Information|Banner|Label|50000|Left|200|Left||||Active||NULL|ADD
 kroBanner_Log_Procurement|N||||||||||||||||R|N|en|Procurement Information|Procurement Information|Banner|Label|60000|Left|200|Left||||Active||NULL|1.5.2CTX;
 kroDisplayType|N|||text||60|1|N|KRO_V10184||||||||E|N|en|Display Type|How the product is merchandised in the store as a Display unit Note: Name changed from "Clip strip"|Horizontal|Dropdown|10700|Left|200|Left||||Active||NULL|pikr-55422(bharter)
 kroShippingCaseType|N|||text||60|1|N|KRO_V10183||||||||E|N|en|Kroger Shipping Case Type|Type of the case in which the item is shipped|Horizontal|Dropdown|50100|Left|200|Left||||Active||NULL|1.5.2CTX;
+firstOrderDate|N|||dateTime|||||||||||||E|N|en|First Order Date|Indicates the earliest date that an order can be placed for the product.|Horizontal|Date|60200|Left|200|Left||||Active||NULL|1.5.2CTX;
 lastOrderDate|N|||dateTime|||||||||||||E|N|en|Last Order Date|Indicates the latest date that an order can be placed for the product|Horizontal|Date|60300|Left|200|Left||||Active||NULL|1.5.2CTX;
+firstShipDate|N|||dateTime|||||||||||||E|N|en|First Ship Date|First date a product can be shipped from the supplier’s facility.|Horizontal|DateTime|60400|Left|200|Left||||Active||NULL|1.5.2CTX;
 lastShipDate|N|||dateTime|||||||||||||E|N|en|Last Ship Date|The date after which the supplier will no longer ship the product.|Horizontal|DateTime|60500|Left|200|Left||||Active||NULL|1.5.2CTX;
+discontinueDate|N|||dateTime|||||||||||||E|N|en|Discontinued Date|Communicates the date on which the product will no longer be manufactured.|Horizontal|Date|60600|Left|200|Left||||Active||NULL|1.5.2CTX;

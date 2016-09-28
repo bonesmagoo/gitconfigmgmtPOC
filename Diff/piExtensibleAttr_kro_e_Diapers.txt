@@ -1,4 +1,4 @@
 ﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
-kroMaximumWeightSupported|N|||float|7|14|7||||uom|text||3|1|KroComponentGrossWeightUOM|E|N|en|Maximum Weight Supported|The maximum weight this product can support.|Horizontal|Float|300|Left|200|Left||||Active||NULL|402
-kroMinimumWeightSupported|N|||float|7|14|7||||uom|text||3|1|MassUOM|E|N|en|Minimum Weight Supported|The minimum weight a subject should be to safely use this product.|Horizontal|Float|200|Left|200|Left||||Active||NULL|400
 targetConsumerAge|Y|||text||70|1|||M|lang|text||5|1|StandardLanguageCodes_hub|E|N|en|Target Consumer Age|Identifies the target consumer age range for which a trade item has been designed.|Horizontal|Text|100|Left|200|Left||||Active||NULL|138; PI52_QA19
+kroMinimumWeightSupported|N|||float|7|14|7||||uom|text||3|1|MassUOM|E|N|en|Minimum Weight Supported|The minimum weight a subject should be to safely use this product.|Horizontal|Float|200|Left|200|Left||||Active||NULL|400
+kroMaximumWeightSupported|N|||float|7|14|7||||uom|text||3|1|KroComponentGrossWeightUOM|E|N|en|Maximum Weight Supported|The maximum weight this product can support.|Horizontal|Float|300|Left|200|Left||||Active||NULL|402

@@ -1,7 +1,7 @@
 ﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
 avp/cleaningMethod|N|||text||70|1|N|||||||||E|N|en|Cleaning Method|cleaningMethod<br>Qualifier: AVP198<br>Indicates the method in which to clean the product.|Horizontal|Text|100|Left|200|Left||||Active||NULL|AVP
 avp/quantityOfShelves|N|||integer||4|1||||||||||E|N|en|Quantity Of Shelves|quantityOfShelves<br>Qualifier: AVP618<br>Indicates the number of shelves the product contains.|Horizontal|Integer|600|Left|200|Left||||Active||NULL|AVP
-isAssemblyRequired|N|||boolean|||||||||||||E|N|en|Assembly Required|Indicates that the Items in the package need to be assembled for use.|Horizontal|Boolean|200|Left|200|Left||||Active||NULL|150
-kroFurnitureStyle|Y||2|text||70|1|N|KroFurnitureStyleVV||||||||E|N|en|Furniture Style|Describes the style of the furniture.|Horizontal|Multi_Select_List|400|Left|200|Left||||Active||NULL|121; PI152_QA10
 kroStyleDescription|N||1|text||70|1|N|||||||||E|N|en|Style Description|Describes the style of the product.|Horizontal|Text|500|Left|200|Left||||Active||NULL|148
 tradeItemFinishDescription|Y|||text||70|1|||M|lang|text||5|1|StandardLanguageCodes_hub|E|N|en|Finish Description|Attribute which defines the outer surface/appearance of the product.|Horizontal|Text|300|Left|200|Left||||Active||NULL|120; PI52_QA19
+isAssemblyRequired|N|||boolean|||||||||||||E|N|en|Assembly Required|Indicates that the Items in the package need to be assembled for use.|Horizontal|Boolean|200|Left|200|Left||||Active||NULL|150
+kroFurnitureStyle|Y||2|text||70|1|N|KroFurnitureStyleVV||||||||E|N|en|Furniture Style|Describes the style of the furniture.|Horizontal|Multi_Select_List|400|Left|200|Left||||Active||NULL|121; PI152_QA10
