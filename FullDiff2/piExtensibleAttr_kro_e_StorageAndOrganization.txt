@@ -1,0 +1,3 @@
+﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
+avp/quantityOfShelves|N|||integer||4|1||||||||||E|N|en|Quantity Of Shelves|quantityOfShelves<br>Qualifier: AVP618<br>Indicates the number of shelves the product contains.|Horizontal|Integer|200|Left|200|Left||||Active||NULL|AVP
+isAssemblyRequired|N|||boolean|||||||||||||E|N|en|Assembly Required|Indicates that the Items in the package need to be assembled for use.|Horizontal|Boolean|100|Left|200|Left||||Active||NULL|150

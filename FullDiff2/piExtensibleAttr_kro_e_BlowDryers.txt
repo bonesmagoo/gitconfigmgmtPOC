@@ -1,0 +1,2 @@
+﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
+avp/applianceWattage|N|||integer||4|1||||||||||E|N|en|Appliance Wattage|applianceWattage<br>Qualifier: AVP144<br>Identifies the number of watts, in which the product operates efficiently. Measured in Watts.|Horizontal|Integer|100|Left|200|Left||||Active||NULL|AVP

@@ -1,0 +1,4 @@
+﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
+kroNippleFlowLevel|N|||integer||6|1||||||||||E|N|en|Nipple Flow Level|A numeric indicator of flow speed of the nipple.|Horizontal|Integer|300|Left|200|Left||||Active||NULL|149
+kroStyleDescription|N||1|text||70|1|N|||||||||E|N|en|Style Description|Describes the style of the product.|Horizontal|Text|200|Left|200|Left||||Active||NULL|148
+targetConsumerAge|Y|||text||70|1|||M|lang|text||5|1|StandardLanguageCodes_hub|E|N|en|Target Consumer Age|Identifies the target consumer age range for which a trade item has been designed.|Horizontal|Text|100|Left|200|Left||||Active||NULL|138; PI52_QA19

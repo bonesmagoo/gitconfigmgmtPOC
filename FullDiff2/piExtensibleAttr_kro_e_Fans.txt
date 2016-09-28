@@ -1,0 +1,3 @@
+﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
+avp/requiredPowerSupplyWattage|N|||float|5|7|2||||||||||E|N|en|Required Power Supply Wattage|requiredPowerSupplyWattage<br>Indicates the minimum required power supply wattage from the computer system power supply required to operate the product.|Horizontal|Float|200|Left|200|Left||||Active||NULL|AVP
+kroBulbLife|N||1|integer||10|1||||uom|text||70|1|KroBulbLifeUOMVV|E|N|en|Bulb Life|The estimated life span of the bulb.|Horizontal|Integer|100|Left|200|Left||||Active||NULL|342

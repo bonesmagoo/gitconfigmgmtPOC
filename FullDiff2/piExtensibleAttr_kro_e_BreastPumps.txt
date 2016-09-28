@@ -1,0 +1,3 @@
+﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
+kroDishwasherSafe|N|||boolean|||||||||||||E|N|en|Dishwasher Safe|Can this product be washed in an automatic dishwasher?|Horizontal|Boolean|200|Left|200|Left||||Active||NULL|337
+targetConsumerAge|Y|||text||70|1|||M|lang|text||5|1|StandardLanguageCodes_hub|E|N|en|Target Consumer Age|Identifies the target consumer age range for which a trade item has been designed.|Horizontal|Text|100|Left|200|Left||||Active||NULL|138; PI52_QA19

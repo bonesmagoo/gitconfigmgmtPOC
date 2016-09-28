@@ -1,0 +1,11 @@
+﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
+dietTypeDescription|Y|||text||70|1|||M|lang|text||5|1|StandardLanguageCodes_hub|E|N|en|Diet Type Description|dietTypeDescription<br>Qualifier: FNB007<br>Free text for indication of diet not stated in the list of diets.|Horizontal|Text|700|Right|200|Left||||Active||NULL|MJR3
+foodAndBevDietTypeInfo|N||||||||||||||||E|N|en|Diet Types Link|Diet Types Link|Horizontal|FLEX_POPUP|600|Left|200|Left||||Active||NULL|Link
+foodAndBevPreparationInfo|N||||||||||||||||E|N|en|Food And Bev Preparation Info Link|Food And Bev Preparation Info Link|Horizontal|FLEX_POPUP|1100|Left|200|Left||||Active||NULL|1.5.2CTX;
+healthClaimCode|Y||100|text||80|1|N|HealthClaimCode||||||||E|N|en|Health Claims|Free text field for any health claims according to regulations of the target market.|Horizontal|Multi_Select_List|100|Left|200|Left||||Active||NULL|PIMJR3 Update
+kroBoneless|N|||boolean|||||||||||||E|N|en|Boneless|indicates this product has been de-boned.|Horizontal|Boolean|200|Left|200|Left||||Active||NULL|291
+krogerOrganicClaim/kroOrganicClaimAgencyCode|Y|krogerOrganicClaim|100|text||80|1|N|KRO_V10243||||||||E|N|en|Organic Claim Agency|A governing body that creates and maintains standards related to organic products.|LoopGroup|Multi_Select_List|1200|Left|200|Left||||Active||NULL|PIMJR3 Update,PI3.0(bharter)
+krogerOrganicClaim/kroOrganicTradeItemCode|N|krogerOrganicClaim|100|text||60|1|N|KRO_V10259||||||||E|N|en|Organic Trade Item Code|Used to indicate the organic status of a trade item or of one or more of its components.|LoopGroup|Dropdown|1300|Left|200|Left||||Active||NULL|PIMJR3 Update,PI3.0(bharter)
+kroRegionOfOrigin|Y||100|text||70|1|N|||||||||E|N|en|Region of Origin|Indication of sub region of origin of the trade item.|Horizontal|Text|300|Left|200|Left||||Active||NULL|r
+numberOfServingsPerPackage|N|||float|15|15|1||||||||||E|N|en|Number Of Servings Per Package|The total number of servings contained in the package.|Horizontal|Float|500|Left|200|Left||||Active||NULL|276
+nutrientInformation|N||||||||||||||||E|N|en|Nutrient Information Link|Nutrient Information Link|Horizontal|FLEX_POPUP|400|Left|200|Left||||Active||NULL|1.5.2CTX;

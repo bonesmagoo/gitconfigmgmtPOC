@@ -1,0 +1,6 @@
+﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
+avp/applianceWattage|N|||integer||4|1||||||||||E|N|en|Appliance Wattage|applianceWattage<br>Qualifier: AVP144<br>Identifies the number of watts, in which the product operates efficiently. Measured in Watts.|Horizontal|Integer|400|Left|200|Left||||Active||NULL|AVP
+avp/requiredPowerSupplyWattage|N|||float|5|7|2||||||||||E|N|en|Required Power Supply Wattage|requiredPowerSupplyWattage<br>Indicates the minimum required power supply wattage from the computer system power supply required to operate the product.|Horizontal|Float|300|Left|200|Left||||Active||NULL|AVP
+kroControls|Y||100|text||70|1|N|||||||||E|N|en|Controls|A description of each type of adjustable controls available on this product.|Horizontal|Text|200|Left|200|Left||||Active||NULL|312
+kroCoolingPowerBTUs|N||1|integer||10|1||||||||||E|N|en|Cooling Power (BTUs)|Indicates the cooling power of this product in British Thermal Units (BTU's).|Horizontal|Integer|100|Left|200|Left||||Active||NULL|324
+warrantyInformation|N||||||||||||||||E|N|en|Warranty Information Link|Warranty Information Link|Horizontal|FLEX_POPUP|500|Left|200|Left||||Active||NULL|MJR3

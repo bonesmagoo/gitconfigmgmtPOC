@@ -1,0 +1,6 @@
+﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
+avp/applianceWattage|N|||integer||4|1||||||||||E|N|en|Appliance Wattage|applianceWattage<br>Qualifier: AVP144<br>Identifies the number of watts, in which the product operates efficiently. Measured in Watts.|Horizontal|Integer|500|Left|200|Left||||Active||NULL|AVP
+avp/cordLength|N|||integer||4|1||||||||||E|N|en|Cord Length|cordLength<br>Qualifier: AVP211<br>Indicates the length of the cord attached to the product.|Horizontal|Integer|100|Left|200|Left||||Active||NULL|AVP
+avp/cordLengthUOM|N|||text||70|1|N|||||||||E|N|en|Cord Length UOM|cordLengthUOM<br>Qualifier: AVP212<br>The unit of measurement associated with Cord Length.|Horizontal|Text|200|Left|200|Left||||Active||NULL|AVP
+kroControls|Y||100|text||70|1|N|||||||||E|N|en|Controls|A description of each type of adjustable controls available on this product.|Horizontal|Text|400|Left|200|Left||||Active||NULL|312
+kroSurfaceType|Y||100|text||70|1|N|KroSurfaceTypeVV||||||||E|N|en|Surface Types|Indicates a type of surface which this product can be used on.|Horizontal|Dropdown|300|Left|200|Left||||Active||NULL|319

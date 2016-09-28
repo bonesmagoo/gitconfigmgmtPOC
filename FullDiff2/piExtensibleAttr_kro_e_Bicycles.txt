@@ -1,0 +1,32 @@
+﻿dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy|dummy
+avp/hasSteamSystem|N|||boolean|||||||||||||E|N|en|Has Steam System?|hasSteamSystem<br>Qualifier: AVP400<br>Indicates whether or not the product has a steam system.|Horizontal|Boolean|200|Left|200|Left||||Active||NULL|AVP
+isAssemblyRequired|N|||boolean|||||||||||||E|N|en|Assembly Required|Indicates that the Items in the package need to be assembled for use.|Horizontal|Boolean|100|Left|200|Left||||Active||NULL|150
+kroBicycleType|N||1|text||70|1|N|KroBicycleTypeVV||||||||E|N|en|Bicycle Type|The style / intended use for this bicycle.|Horizontal|Dropdown|3100|Left|200|Left||||Active||MANDATORY_BEFORE|399; PI52_QA19
+kroBrakes|N||1|text||70|1|N|||||||||E|N|en|Brakes|Text describing the brakes this bicycle is equipped with.|Horizontal|Text|2600|Left|200|Left||||Active||NULL|394
+kroCassette|N||1|text||70|1|N|||||||||E|N|en|Bicycle Cassette Brand/Type|Text describing the cassette this bicycle is equipped with.|Horizontal|Text|1200|Left|200|Left||||Active||NULL|380
+kroChain|N||1|text||70|1|N|||||||||E|N|en|Bicycle Chain Brand|Text describing the chain this bicycle is equipped with.|Horizontal|Text|2500|Left|200|Left||||Active||NULL|393
+kroChainstayLengthCentimeters|N|||integer||10|1||||||||||E|N|en|Chainstay Length|The length of the chainstay tube on this bicycle.|Horizontal|Integer|800|Left|200|Left||||Active||NULL|376
+kroCrankset|N||1|text||70|1|N|||||||||E|N|en|Crankset|Text describing the crankset this bicycle is equipped with.|Horizontal|Text|2900|Left|200|Left||||Active||NULL|397
+kroFork|N||1|text||70|1|N|||||||||E|N|en|Fork|Text describing the fork this bicycle is equipped with.|Horizontal|Text|2800|Left|200|Left||||Active||NULL|396
+kroFrameMaterialContent|N||1|text||70|1|N|||||||||E|N|en|Frame Material|A construction material used in the indicated part of this product.|Horizontal|Text|300|Left|200|Left||||Active||MANDATORY_BEFORE|101
+kroFrameMaterialPercentage|N|||float|5|5|2||||||||||E|N|en|Percentage|A numeric value between 0.00 and 1.00, indicating the percentage of a construction material contributing to a composite, blend, or alloy.|Horizontal|Float|400|Left|200|Left||||Active||NULL|102
+kroFrontDerailleur|N||1|text||70|1|N|||||||||E|N|en|Front Derailleur|Text describing the front derailleur this bicycle is equipped with.|Horizontal|Text|1000|Left|200|Left||||Active||NULL|378
+kroFrontHub|N||1|text||70|1|N|||||||||E|N|en|Front Hub|Text describing the front hub this bicycle is equipped with.|Horizontal|Text|1400|Left|200|Left||||Active||NULL|382
+kroFrontRim|N||1|text||70|1|N|||||||||E|N|en|Front Rim|Text describing the front rim this bicycle is equipped with.|Horizontal|Text|1600|Left|200|Left||||Active||NULL|384
+kroHandlebar|N||1|text||70|1|N|||||||||E|N|en|Handlebar|Text describing the handlebar this bicycle is equipped with.|Horizontal|Text|1900|Left|200|Left||||Active||NULL|387
+kroHeadset|N||1|text||70|1|N|||||||||E|N|en|Headset|Text describing the headset this bicycle is equipped with.|Horizontal|Text|2400|Left|200|Left||||Active||NULL|392
+kroHeadTubeAngle|N|||integer||10|1||||||||||E|N|en|Head Tube Angle|The angle of the head tube on this bicycle.|Horizontal|Integer|600|Left|200|Left||||Active||NULL|374
+kroNumberOfGears|N|||integer||10|1||||||||||E|N|en|Number of Gears|The number of gears this bicycle is equipped with.|Horizontal|Integer|1300|Left|200|Left||||Active||NULL|381
+kroPedals|N||1|text||70|1|N|||||||||E|N|en|Pedals|Text describing the pedals this bicycle is equipped with.|Horizontal|Text|2300|Left|200|Left||||Active||NULL|391
+kroRackMounts|Y||2|text||70|1|N|KroRackMountsVV||||||||E|N|en|Rack Mounts|Text describing each rack mount this bicycle is equipped with.|Horizontal|Multi_Select_List|900|Left|200|Left||||Active||NULL|377; PI152_QA19
+kroRearDerailleur|N||1|text||70|1|N|||||||||E|N|en|Rear Derailleur|Text describing the rear derailleur this bicycle is equipped with.|Horizontal|Text|1100|Left|200|Left||||Active||NULL|379
+kroRearHub|N||1|text||70|1|N|||||||||E|N|en|Rear Hub|Text describing the rear hub this bicycle is equipped with.|Horizontal|Text|1500|Left|200|Left||||Active||NULL|383
+kroRearRim|N||1|text||70|1|N|||||||||E|N|en|Rear Rim|Text describing the rear rim this bicycle is equipped with.|Horizontal|Text|1700|Left|200|Left||||Active||NULL|385
+kroRearSuspension|N||1|text||70|1|N|||||||||E|N|en|Rear Suspension|Text describing the rear suspension this bicycle is equipped with.|Horizontal|Text|3000|Left|200|Left||||Active||NULL|398
+kroSaddle|N||1|text||70|1|N|||||||||E|N|en|Saddle|Text describing the saddle this bicycle is equipped with.|Horizontal|Text|2200|Left|200|Left||||Active||NULL|390
+kroSeatPost|N||1|text||70|1|N|||||||||E|N|en|Seat Post|Text describing the seat post this bicycle is equipped with.|Horizontal|Text|2100|Left|200|Left||||Active||NULL|389
+kroSeatTubeAngle|N|||integer||10|1||||||||||E|N|en|Seat Tube Angle|The angle of the seat tube on this bicycle.|Horizontal|Integer|700|Left|200|Left||||Active||NULL|375
+kroSeatTubeLengthCentimeters|N|||integer||10|1||||||||||E|N|en|Seat Tube Length|The length of the seat tube on this bicycle.|Horizontal|Integer|500|Left|200|Left||||Active||NULL|373
+kroShifters|N||1|text||70|1|N|||||||||E|N|en|Shifters|Text describing the shifters this bicycle is equipped with.|Horizontal|Text|2700|Left|200|Left||||Active||NULL|395
+kroStem|N||1|text||70|1|N|||||||||E|N|en|Stem|Text describing the handlebar stem this bicycle is equipped with.|Horizontal|Text|2000|Left|200|Left||||Active||NULL|388
+kroTires|N||1|text||70|1|N|||||||||E|N|en|Tires|Text describing the tires this bicycle is equipped with.|Horizontal|Text|1800|Left|200|Left||||Active||NULL|386
